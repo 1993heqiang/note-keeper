@@ -86,6 +86,3 @@
 | garnet         | Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication features. Garnet can work with existing **Redis** clients. | [Link](https://github.com/microsoft/garnet)                       |
 | `johnlui/PPHC` | 《高并发的哲学原理》                                                                                                                                                                                                                                                  | [Link](https://github.com/johnlui/PPHC)                           |
 
-:white_check_mark:  :x: :star:
-
-# 
