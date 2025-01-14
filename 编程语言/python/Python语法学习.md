@@ -1141,3 +1141,62 @@
   - 跟踪有效小数位，或
   
   - 用户期望结果与手工完成的计算相匹配的应用程序。
+  
+  ```python
+  from decimal import Decimal
+  from fractions import Fraction
+  
+  Fraction.from_float(0.1)
+  (0.1).as_integer_ratio()
+  
+  Decimal.from_float(0.1)
+  format(Decimal.from_float(0.1), '.17')
+  ```
+  
+  
+
+## 虚拟环境和包
+
+### 虚拟环境
+
+常用命令：
+
+```shell
+# 创建
+python -m venv tutorial-env
+
+
+# 激活
+source ~/envs/tutorial-env/bin/activate
+
+# 撤销激活
+deactivate
+
+
+```
+
+
+
+### pip
+
+常用命令
+
+```shell
+# install
+python -m pip install novas
+python -m pip install requests==2.6.0
+python -m pip install --upgrade requests
+
+# uninstall
+python -m pip uninstall requests
+
+# query list
+python -m pip show requests
+python -m pip list
+
+# freeze requirements.txt
+python -m pip freeze > requirements.txt
+
+# instal requirements.txt
+python -m pip install -r requirements.txt
+```
