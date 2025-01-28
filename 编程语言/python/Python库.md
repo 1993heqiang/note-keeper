@@ -1,9 +1,13 @@
-## AI
+## 工具
 
-| 名称           | 描述                                                                                                           | 地址                                             |
-| ------------ | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
-| `MindSearch` | MindSearch 是一个开源的 AI 搜索引擎框架，具有与 Perplexity.ai Pro 相同的性能。您可以轻松部署它来构建您自己的搜索引擎，可以使用闭源 LLM（如 GPT、Claude）或开源 LLM。 | [Link](https://github.com/InternLM/MindSearch) |
-| `Gradio`     | 用于构建演示机器学习或数据科学，以及web应用程序。                                                                                   | [Link](https://github.com/gradio-app/gradio)   |
-|              |                                                                                                              |                                                |
-
-
+| 名称           | 描述                                                                                                                 | 地址                                               |
+| ------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ |
+| `matplotlib` | 画图库。Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. | [Link](https://github.com/matplotlib/matplotlib) |
+| `Rich`       | Rich 是一个 Python 库，可以为你在终端中提供富文本和漂亮、精美的格式。                                                                          | [Link](https://github.com/Textualize/rich)       |
+| `IPython`    | IPython是一种基于Python的交互式解释器。相较于原生的Python Shell，IPython提供了更为强大的编辑和交互功能。A kernel for **Jupyter**.                      | [Link](https://github.com/ipython)               |
+| `Jupyter`    | Interactive Computing. 即文档中直接运行代码。                                                                                 | [Link](https://github.com/jupyter)               |
+| `Loguru`     | Python更加优雅的日志库。                                                                                                    | [Link](https://github.com/Delgan/loguru)         |
+| `tqdm`       | Python进度条库。                                                                                                        | [Link](https://github.com/tqdm/tqdm)             |
+| `Django`     | Django 是一个用于构建 Web 应用程序的高级 Python Web 框架。                                                                          | [Link](https://github.com/django/django)         |
+| `Flask`      | Flask是一个使用Python编写的轻量级Web应用框架。                                                                                     | [Link](https://github.com/pallets/flask)         |
+| `FastAPI`    | FastAPI 是一个现代化、快速（高性能）的 Web 框架，用于使用基于标准 Python 类型提示的 Python 构建 API。(基于**Starlette**和**Pydantic**)                  | [Link](https://fastapi.org.cn/)                  |
