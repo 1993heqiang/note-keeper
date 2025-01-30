@@ -67,14 +67,23 @@
 
 ## UI框架
 
-| 名称            | 描述                                                                                                                                           | 地址                                                                                                                    |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `Lobe Chat`   | 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架.支持语音合成、多模态、可扩展的（function call）插件系统.                                                                          | [仓库地址](https://github.com/lobehub/lobe-chat)<br/>[Ollama集成](https://lobehub.com/zh/docs/self-hosting/examples/ollama) |
-| `Open WebUI`  | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)                                                                                | [仓库地址](https://github.com/open-webui/open-webui)                                                                      |
-| `Enchanted`   | Enchanted is **iOS and macOS** app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using **Ollama**. | [仓库地址](https://github.com/gluonfield/enchanted)                                                                       |
-| `Chatbox`     | Chatbox 是一个 AI 模型桌面客户端，支持 ChatGPT、Claude、Google Gemini、Ollama 等主流模型，适用于 Windows、Mac、Linux、Web、Android 和 iOS 全平台                              | [仓库地址](https://github.com/Bin-Huang/chatbox)                                                                          |
-| `Page Assist` | Use your locally running AI models to assist you in your web browsing. **Chrome插件**                                                          | [仓库地址](https://github.com/n4ze3m/page-assist)                                                                         |
-| `chatgpt-web` | 仅支持`ChatGPT API`. 优秀实践: [AIchatOS](https://x.aichatos8.cn/)                                                                                  | [仓库地址](https://github.com/Chanzhaoyu/chatgpt-web)                                                                     |
+| 名称              | 描述                                                                                                                                           | 地址                                                                                                                    |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `Lobe Chat`     | 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架.支持语音合成、多模态、可扩展的（function call）插件系统.                                                                          | [仓库地址](https://github.com/lobehub/lobe-chat)<br/>[Ollama集成](https://lobehub.com/zh/docs/self-hosting/examples/ollama) |
+| `Open WebUI`    | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)                                                                                | [仓库地址](https://github.com/open-webui/open-webui)                                                                      |
+| `Enchanted`     | Enchanted is **iOS and macOS** app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using **Ollama**. | [仓库地址](https://github.com/gluonfield/enchanted)                                                                       |
+| `Chatbox`       | Chatbox 是一个 AI 模型桌面客户端，支持 ChatGPT、Claude、Google Gemini、Ollama 等主流模型，适用于 Windows、Mac、Linux、Web、Android 和 iOS 全平台                              | [仓库地址](https://github.com/Bin-Huang/chatbox)                                                                          |
+| `Page Assist`   | Use your locally running AI models to assist you in your web browsing. **Chrome插件**                                                          | [仓库地址](https://github.com/n4ze3m/page-assist)                                                                         |
+| `chatgpt-web`   | 仅支持`ChatGPT API`. 优秀实践: [AIchatOS](https://x.aichatos8.cn/)                                                                                  | [仓库地址](https://github.com/Chanzhaoyu/chatgpt-web)                                                                     |
+| `cherry-studio` | Cherry Studio 是一款支持多个大语言模型（LLM）服务商的桌面客户端，兼容 Windows、Mac 和 Linux 系统。                                                                          | [仓库地址](https://github.com/CherryHQ/cherry-studio)                                                                     |
+
+## 编码工具
+
+| 名称         | 描述                                                                                                                                                              |     |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| `Cursor`   | 由Anysphere实验室开发的一款AI驱动的代码编辑器。[官网](https://www.cursor.com/)                                                                                                      |     |
+| `Roo Code` | Roo Code（前身为 Roo Cline）是一款 VS Code 插件，它通过 AI 驱动的自动化、多模型支持和实验性功能增强了编码能力。[VS插件地址](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) |     |
+|            |                                                                                                                                                                 |     |
 
 ## 工具产品
 
@@ -91,6 +100,12 @@
 ### Hugging Face
 
 > [hf-mirror.com](https://hf-mirror.com/): 用于镜像 [huggingface.co](https://huggingface.co/) 域名, 致力于帮助国内AI开发者快速、稳定的下载模型、数据集
+
+## AI公司
+
+### Groq
+
+Groq 成立于2016年，是一家 AI 芯片公司由前谷歌员工 Jonathan Ross 创立。其推出的LPU（Language Processing Unit）推理引擎是一种新型的端到端处理单元系统，可为具有顺序组件的计算密集型应用程序提供最快的推理，宣称做到了“地表最强推理”。[官网](https://groq.com/)
 
 ## 专业名称&简写
 
