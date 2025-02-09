@@ -58,6 +58,8 @@
 |                        |                                                                                             |                                                                   |
 |                        |                                                                                             |                                                                   |
 
-
-
 **TODO** 《IT咖啡馆》第50期及之前、59期之后
+
+## 附录
+
+- Trendshift：Github热门库查询，地址：[Link](https://trendshift.io/)

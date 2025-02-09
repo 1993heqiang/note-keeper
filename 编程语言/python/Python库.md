@@ -11,3 +11,13 @@
 | `Django`     | Django 是一个用于构建 Web 应用程序的高级 Python Web 框架。                                                                          | [Link](https://github.com/django/django)         |
 | `Flask`      | Flask是一个使用Python编写的轻量级Web应用框架。                                                                                     | [Link](https://github.com/pallets/flask)         |
 | `FastAPI`    | FastAPI 是一个现代化、快速（高性能）的 Web 框架，用于使用基于标准 Python 类型提示的 Python 构建 API。(基于**Starlette**和**Pydantic**)                  | [Link](https://fastapi.org.cn/)                  |
+
+
+
+## 学习
+
+| 名称               | 描述                           | 地址                                              |
+| ---------------- | ---------------------------- | ----------------------------------------------- |
+| `Awesome Python` | 一份包含优秀 Python 框架、库、软件和资源的列表。 | [Link](https://github.com/vinta/awesome-python) |
+|                  |                              |                                                 |
+|                  |                              |                                                 |
