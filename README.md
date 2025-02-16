@@ -1,8 +1,6 @@
 # note-keeper
 
-> 记录一些学习笔记,内容五花八门
-
-
+> *What I cannot create, I do not understand — Richard Feynman.*
 
 - Markdown支持的Emoji 表情: [Link](https://gist.github.com/rxaviers/7360908)
   
