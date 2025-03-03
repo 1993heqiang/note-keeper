@@ -14,12 +14,8 @@
   # 查看匹配特定模式的配置项来源
   git config --show-origin --get-regexp user
   ```
-  
-  
 
 - 
-
-
 
 ## 配置参数
 
@@ -35,5 +31,3 @@ git config --global core.autocrlf input
 # 仅在Windows上开发时,关闭该特性可以将CRLF都保留在版本库中.
 git config --global core.autocrlf false
 ```
-
-
