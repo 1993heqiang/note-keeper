@@ -1,5 +1,3 @@
-## Python库
-
 ### 核心框架与模型库
 
 | 名称           | 描述                                                                      | 地址                                                  |
@@ -65,7 +63,7 @@
 | ------------ | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
 | `MindSearch` | MindSearch 是一个开源的 AI 搜索引擎框架，具有与 Perplexity.ai Pro 相同的性能。您可以轻松部署它来构建您自己的搜索引擎，可以使用闭源 LLM（如 GPT、Claude）或开源 LLM。 | [Link](https://github.com/InternLM/MindSearch) |
 
-## UI框架（Web & Desktop）
+### UI框架（Web & Desktop）
 
 | 名称              | 描述                                                                                                                                           | 地址                                                                                                                    |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -77,7 +75,7 @@
 | `chatgpt-web`   | 仅支持`ChatGPT API`. 优秀实践: [AIchatOS](https://x.aichatos8.cn/)                                                                                  | [仓库地址](https://github.com/Chanzhaoyu/chatgpt-web)                                                                     |
 | `cherry-studio` | Cherry Studio 是一款支持多个大语言模型（LLM）服务商的桌面客户端，兼容 Windows、Mac 和 Linux 系统。                                                                          | [仓库地址](https://github.com/CherryHQ/cherry-studio)                                                                     |
 
-## 编码工具
+### 编码工具
 
 | 名称         | 描述                                                                      | 地址                                                                                       |
 | ---------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -91,122 +89,23 @@
 |            |                                                                         |                                                                                          |
 |            |                                                                         |                                                                                          |
 
-## 学习
+### 学习
 
 | 名称                      | 描述                                                                                    | 地址                                                   |
 | ----------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| minimind                | 「大模型」3小时完全从0训练26M的小参数GPT！                                                             | [Link](https://github.com/jingyaogong/minimind)      |
+| wandb                   | 全称:Weights & Biases, 为机器学习从业者打造最佳工具                                                   | [Link](https://github.com/wandb)                     |
+| `MiniMind`              | 「大模型」3小时完全从0训练26M的小参数GPT！                                                             | [Link](https://github.com/jingyaogong/minimind)      |
 | awesome-chatgpt-prompts | This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better. | [Link](https://github.com/f/awesome-chatgpt-prompts) |
+| LLMs-from-scratch       | 从头开始构建大型语言模型                                                                          | [Link](https://github.com/rasbt/LLMs-from-scratch)   |
+| fabric                  | AI增强人类能力                                                                              | [Link](https://github.com/danielmiessler/fabric)     |
+| LLaMA-Factory           | 微调工具:使用零代码命令行与 Web UI 轻松微调百余种大模型                                                      | [Link](https://github.com/hiyouga/LLaMA-Factory)     |
+|                         |                                                                                       |                                                      |
 |                         |                                                                                       |                                                      |
 
-## AI产品
+### AI管理平台
 
-| 名称               | 描述                                                                                                                                                 | 地址                                                           |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| WrenAI           | Open-source GenBI AI Agent that empowers data-driven teams to chat with their data to generate Text-to-SQL, charts, spreadsheets, reports, and BI. | [Link](https://github.com/Canner/WrenAI)                     |
-| ebook2audiobook  | 电子书转有声书                                                                                                                                            | [Link](https://github.com/DrewThomasson/ebook2audiobook)     |
-| khoj             | AI第二大脑(**商业产品**)                                                                                                                                   | [Link](https://github.com/khoj-ai/khoj)                      |
-| Perplexica       | AI 搜索引擎                                                                                                                                            | [Link](https://github.com/ItzCrazyKns/Perplexica)            |
-| firecrawl        | 网页转LLM使用的结构化数据(**商业产品**)                                                                                                                           | [Link](https://github.com/mendableai/firecrawl)              |
-| PDFMathTranslate | 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务。                                                                                      | [Link](https://github.com/Byaidu/PDFMathTranslate)           |
-| AnimatedDrawings | 卡通图片变动画                                                                                                                                            | [Link](https://github.com/facebookresearch/AnimatedDrawings) |
-| MegaParse        | 文档解析器                                                                                                                                              | [Link](https://github.com/QuivrHQ/MegaParse)                 |
-|                  |                                                                                                                                                    |                                                              |
-
-## 待处理
-
-| 名称                 | 描述                                                                            | 地址                                                     |
-| ------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------ |
-| GPT-SoVITS         | 强大的少样本语音转换与语音合成Web用户界面。                                                       | [Link](https://github.com/RVC-Boss/GPT-SoVITS)         |
-| ComfyUI            | ComfyUI 是一个开源的用户界面（UI）工具，旨在提供一种直观且灵活的方式来创建和定制图像生成流程。                          | [Link](https://github.com/comfyanonymous/ComfyUI)      |
-| pydantic-ai        | 生成级AI应用开发框架                                                                   | [Link](https://github.com/pydantic/pydantic-ai)        |
-| keep               | AIOps和告警管理平台                                                                  | [Link](https://github.com/keephq/keep)                 |
-| aisuite            | AI统一调用工具                                                                      | [Link](https://github.com/andrewyng/aisuite)           |
-| docling            | 文档解析工具:PDF, DOCX, XLSX, HTML, images, and more                                | [Link](https://github.com/DS4SD/docling)               |
-| marker             | PDF转markdown                                                                  | [Link](https://github.com/VikParuchuri/marker)         |
-| Chat2DB            | AI数据库工具                                                                       | [Link](https://github.com/CodePhiliaX/Chat2DB)         |
-| coai               | 一代 AIGC 一站式商业解决方案                                                             | [Link](https://github.com/coaidev/coai)                |
-| OpenHands          | AI开发平台:软件开发Agent                                                              | [Link](https://github.com/All-Hands-AI/OpenHands)      |
-| surya              | 文档OCR工具包                                                                      | [Link](https://github.com/VikParuchuri/surya)          |
-| deepface           | 轻量级面部识别库                                                                      | [Link](https://github.com/serengil/deepface)           |
-| supervision        | 计算机视觉工具库                                                                      | [Link](https://github.com/roboflow/supervision)        |
-| HivisionIDPhotos   | 一个轻量级的AI证件照制作算法。                                                              | [Link](https://github.com/Zeyi-Lin/HivisionIDPhotos)   |
-| roop               | AI一键换脸 (**停止维护**)                                                             | [Link](https://github.com/s0md3v/roop)                 |
-| Deep-Live-Cam      | 实时视频换脸                                                                        | [Link](https://github.com/hacksider/Deep-Live-Cam)     |
-| CogVideoX          | 文生视频模型. By Tsinghua University.                                               | [Link](https://github.com/THUDM/CogVideo)              |
-| composio           | AI agent的生产工具集                                                                | [Link](https://github.com/ComposioHQ/composio)         |
-| MinerU             | 一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。                                        | [Link](https://github.com/opendatalab/MinerU)          |
-| mem0               | The Memory layer for AI Agents                                                | [Link](https://github.com/mem0ai/mem0)                 |
-| fish-speech        | 文本转语音                                                                         | [Link](https://github.com/fishaudio/fish-speech)       |
-| ChatTTS            | 一款适用于日常对话的生成式语音模型。                                                            | [Link](https://github.com/2noise/ChatTTS)              |
-| gs-quant           | 量化金融的Python包                                                                  | [Link](https://github.com/goldmansachs/gs-quant)       |
-| mindsdb            | 用企业数据定制 AI问答平台,                                                               | [Link](https://github.com/mindsdb/mindsdb)             |
-| aider5             | 命令行里的 AI 助理                                                                   | [Link](https://github.com/paul-gauthier/aider)         |
-| agno               | 构建multi-modal Agents的轻量化库                                                     | [Link](https://github.com/agno-agi/agno)               |
-| Scrapegraph-ai     | ScrapeGraphAI 是一个网络爬虫 Python 库，使用大型语言模型和直接图逻辑为网站和本地文档（XML，HTML，JSON 等）创建爬取管道。 | [Link](https://github.com/VinciGit00/Scrapegraph-ai)   |
-| OpenVoice          | 声音克隆工具                                                                        | [Link](https://github.com/myshell-ai/OpenVoice)        |
-| LLaMA-Factory      | 微调工具:使用零代码命令行与 Web UI 轻松微调百余种大模型                                              | [Link](https://github.com/hiyouga/LLaMA-Factory)       |
-| wandb              | 全称:Weights & Biases, 为机器学习从业者打造最佳工具                                           | [Link](https://github.com/wandb)                       |
-| RAGFlow            | RAGFlow 是一款基于深度文档理解构建的开源 RAG（Retrieval-Augmented Generation）引擎。               | [Link](https://github.com/infiniflow/ragflow)          |
-| MoneyPrinterTurbo  | 利用AI大模型，一键生成高清短视频                                                             | [Link](https://github.com/harry0703/MoneyPrinterTurbo) |
-| VoiceCraft         | 零样本语音编辑和文本转语音(**停止维护**)                                                       | [Link](https://github.com/jasonppy/VoiceCraft)         |
-| gpt-pilot          | AI开发者:GPT Pilot doesn't just generate code, it builds apps!                   | [Link](https://github.com/Pythagora-io/gpt-pilot)      |
-| screenshot-to-code | 图片转代码                                                                         | [Link](https://github.com/abi/screenshot-to-code)      |
-| ZLUDA              | CUDA on AMD GPUs                                                              | [Link](https://github.com/vosen/ZLUDA)                 |
-| facefusion         | 人脸操作平台, 即AI换脸                                                                 | [Link](https://github.com/facefusion/facefusion)       |
-| fabric             | AI增强人类能力                                                                      | [Link](https://github.com/danielmiessler/fabric)       |
-| LLMs-from-scratch  | 从头开始构建大型语言模型                                                                  | [Link](https://github.com/rasbt/LLMs-from-scratch)     |
-| gateway            | 极速 AI 网关                                                                      | [Link](https://github.com/Portkey-AI/gateway)          |
-| Jan                | 本地AI助手(离线运行LLM)                                                               | [Link](https://github.com/janhq/jan)                   |
-| Umi-OCR            | 开源、免费的离线OCR软件                                                                 | [Link](https://github.com/hiroi-sora/Umi-OCR)          |
-| crewAI             | AI agent调度框架                                                                  | [Link](https://github.com/crewAIInc/crewAI)            |
-| GPTs               | GPT提示词漏洞集合                                                                    | [Link](https://github.com/linexjlin/GPTs)              |
-|                    |                                                                               |                                                        |
-|                    |                                                                               |                                                        |
-|                    |                                                                               |                                                        |
-
-## 工具产品
-
-### Ollama
-
-> Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models. [官网](https://ollama.com/)
-
-仓库地址: [Ollama](https://github.com/ollama/ollama)
-
-支持丰富的集成应用, 如下图所示:
-
-![](/Users/1993heqiang/workspace/1993heqiang/note-keeper/AI人工智能/assets/Ollama集成.png)
-
-### Hugging Face
-
-> [hf-mirror.com](https://hf-mirror.com/): 用于镜像 [huggingface.co](https://huggingface.co/) 域名, 致力于帮助国内AI开发者快速、稳定的下载模型、数据集
-
-## AI公司
-
-### Groq
-
-Groq 成立于2016年，是一家 AI 芯片公司由前谷歌员工 Jonathan Ross 创立。其推出的LPU（Language Processing Unit）推理引擎是一种新型的端到端处理单元系统，可为具有顺序组件的计算密集型应用程序提供最快的推理，宣称做到了“地表最强推理”。[官网](https://groq.com/)
-
-## 专业名称&简写
-
-### SOTA
-
-state-of-the-art model，指的是目前最好/最先进的模型。
-
-### TTS
-
-**文本转语音**（Text-to-Speech，TTS）   
-
-## 书籍&资源
-
-### 《AI系统：原理与架构》
-
-图书：[京东图书](https://item.jd.com/10116328478876.html)
-
-Github: [AISystem](https://github.com/chenzomi12/AISystem)、[AIFoundation](https://github.com/chenzomi12/AIFoundation/)
-
-电子图书：[AISys](https://chenzomi12.github.io/)
-
-### 《大模型应用开发：RAG入门与实战》
-
-图书：[京东图书](https://item.jd.com/14291507.html)
+| 名称   | 描述           | 地址                                           |
+| ---- | ------------ | -------------------------------------------- |
+| keep | AIOps和告警管理平台 | [Link](https://github.com/keephq/keep)       |
+|      |              | [Link](https://github.com/andrewyng/aisuite) |
+|      |              |                                              |
