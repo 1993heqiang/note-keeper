@@ -10,5 +10,9 @@
 | 1brc             | 10 亿行挑战                               | [Link](https://github.com/gunnarmorling/1brc)               |
 | webvm            | 浏览器中运行虚拟机。Virtual Machine for the Web | [Link](https://github.com/leaningtech/webvm)                |
 | Ryujinx          | Switch模拟器                             | [Link](https://github.com/Ryubing/Ryujinx)                  |
+| sherlock         | 社媒账号搜索工具                              | [Link](https://github.com/sherlock-project/sherlock)        |
+| puter            | 互联网操作系统                               | [Link](https://github.com/HeyPuter/puter)                   |
+|                  |                                       |                                                             |
+|                  |                                       |                                                             |
 |                  |                                       |                                                             |
 |                  |                                       |                                                             |

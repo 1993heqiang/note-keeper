@@ -142,8 +142,6 @@
 | gs-quant           | 量化金融的Python包                                                                  | [Link](https://github.com/goldmansachs/gs-quant)       |
 | mindsdb            | 用企业数据定制 AI问答平台,                                                               | [Link](https://github.com/mindsdb/mindsdb)             |
 | aider5             | 命令行里的 AI 助理                                                                   | [Link](https://github.com/paul-gauthier/aider)         |
-|                    |                                                                               |                                                        |
-|                    |                                                                               |                                                        |
 | agno               | 构建multi-modal Agents的轻量化库                                                     | [Link](https://github.com/agno-agi/agno)               |
 | Scrapegraph-ai     | ScrapeGraphAI 是一个网络爬虫 Python 库，使用大型语言模型和直接图逻辑为网站和本地文档（XML，HTML，JSON 等）创建爬取管道。 | [Link](https://github.com/VinciGit00/Scrapegraph-ai)   |
 | OpenVoice          | 声音克隆工具                                                                        | [Link](https://github.com/myshell-ai/OpenVoice)        |
