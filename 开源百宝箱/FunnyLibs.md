@@ -12,7 +12,7 @@
 | Ryujinx          | Switch模拟器                             | [Link](https://github.com/Ryubing/Ryujinx)                  |
 | sherlock         | 社媒账号搜索工具                              | [Link](https://github.com/sherlock-project/sherlock)        |
 | puter            | 互联网操作系统                               | [Link](https://github.com/HeyPuter/puter)                   |
-|                  |                                       |                                                             |
+| sealos           | 一款以 Kubernetes 为内核的云操作系统发行版           | [Link](https://github.com/labring/sealos)                   |
 |                  |                                       |                                                             |
 |                  |                                       |                                                             |
 |                  |                                       |                                                             |
