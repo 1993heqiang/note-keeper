@@ -31,13 +31,15 @@
 | Optuna            | Optuna 是一个特别为机器学习设计的自动超参数优化软件框架。                                                     | [Link](https://github.com/optuna/optuna)                  |
 | LightGBM          | LightGBM是一款基于决策树算法的分布式梯度提升框架。                                                        | [Link](https://github.com/microsoft/LightGBM)             |
 | xgboost           | XGBoost 即极端梯度提升，是可扩展的分布式梯度提升决策树(GBDT) 机器学习库。XGBoost 提供并行树提升功能，是用于回归、分类和排名问题的先进机器学习库。 | [Link](https://github.com/dmlc/xgboost)                   |
+| Dask              | Dask 是一个灵活的开源库，适用于 Python 中的并行和分布式计算。                                                | [Link](https://github.com/dask/dask)                      |
 
 ### 大模型微调与适配
 
-| 名称   | 描述                                                                                                               | 地址                                          |
-| ---- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
-| PEFT | Parameter-Efficient Fine-Tuning，PEFT技术旨在通过最小化微调参数的数量和计算复杂度，来提高预训练模型在新任务上的性能，从而缓解大型预训练模型的训练成本。来自**Hugging Face**。 | [Link](https://github.com/huggingface/peft) |
-| TRL  | Transformer Reinforcement Learning，使用强化学习来训练transformer语言模型。来自**Hugging Face**。                                  | [Link](https://github.com/huggingface/trl)  |
+| 名称            | 描述                                                                                                               | 地址                                               |
+| ------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| PEFT          | Parameter-Efficient Fine-Tuning，PEFT技术旨在通过最小化微调参数的数量和计算复杂度，来提高预训练模型在新任务上的性能，从而缓解大型预训练模型的训练成本。来自**Hugging Face**。 | [Link](https://github.com/huggingface/peft)      |
+| TRL           | Transformer Reinforcement Learning，使用强化学习来训练transformer语言模型。来自**Hugging Face**。                                  | [Link](https://github.com/huggingface/trl)       |
+| LLaMA-Factory | 微调工具:使用零代码命令行与 Web UI 轻松微调百余种大模型                                                                                 | [Link](https://github.com/hiyouga/LLaMA-Factory) |
 
 ### 推理和部署
 
@@ -49,63 +51,25 @@
 
 ### 辅助工具库
 
-| 名称         | 描述                                                                           | 地址                                               |
-| ---------- | ---------------------------------------------------------------------------- | ------------------------------------------------ |
-| MLflow     | Open source platform for the machine learning lifecycle。                     | [Link](https://github.com/mlflow/mlflow)         |
-| Dask       | Dask 是一个灵活的开源库，适用于 Python 中的并行和分布式计算。                                        | [Link](https://github.com/dask/dask)             |
-| Matplotlib | Matplotlib是Python语言及其数值计算库NumPy的绘图库。                                         | [Link](https://github.com/matplotlib/matplotlib) |
-| Seaborn    | Seaborn 是一个建立在 **Matplotlib** 基础之上的 Python 数据可视化库，专注于绘制各种统计图形，以便更轻松地呈现和理解数据。 | [Link](https://github.com/mwaskom/seaborn)       |
-| `Gradio`   | 用于构建演示机器学习或数据科学，以及web应用程序。                                                   | [Link](https://github.com/gradio-app/gradio)     |
+| 名称          | 描述                                                                           | 地址                                               |
+| ----------- | ---------------------------------------------------------------------------- | ------------------------------------------------ |
+| Gradio      | 用于构建演示机器学习或数据科学，以及web应用程序。                                                   | [Link](https://github.com/gradio-app/gradio)     |
+| Matplotlib  | Matplotlib是Python语言及其数值计算库NumPy的绘图库。                                         | [Link](https://github.com/matplotlib/matplotlib) |
+| Seaborn     | Seaborn 是一个建立在 **Matplotlib** 基础之上的 Python 数据可视化库，专注于绘制各种统计图形，以便更轻松地呈现和理解数据。 | [Link](https://github.com/mwaskom/seaborn)       |
+| wandb       | Weights & Biases, 为机器学习从业者打造最佳工具                                             | [Link](https://github.com/wandb)                 |
+| MLflow      | Open source platform for the machine learning lifecycle。                     | [Link](https://github.com/mlflow/mlflow)         |
+| ZLUDA       | CUDA on AMD GPUs                                                             | [Link](https://github.com/vosen/ZLUDA)           |
+| supervision | 计算机视觉工具库                                                                     | [Link](https://github.com/roboflow/supervision)  |
+| firecrawl   | 网页转LLM使用的结构化数据(**商业产品**)                                                     | [Link](https://github.com/mendableai/firecrawl)  |
+|             |                                                                              |                                                  |
 
-### 其他
+### 知识学习
 
-| 名称           | 描述                                                                                                           | 地址                                             |
-| ------------ | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
-| `MindSearch` | MindSearch 是一个开源的 AI 搜索引擎框架，具有与 Perplexity.ai Pro 相同的性能。您可以轻松部署它来构建您自己的搜索引擎，可以使用闭源 LLM（如 GPT、Claude）或开源 LLM。 | [Link](https://github.com/InternLM/MindSearch) |
-
-### UI框架（Web & Desktop）
-
-| 名称              | 描述                                                                                                                                           | 地址                                                                                                                    |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `Lobe Chat`     | 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架.支持语音合成、多模态、可扩展的（function call）插件系统.                                                                          | [仓库地址](https://github.com/lobehub/lobe-chat)<br/>[Ollama集成](https://lobehub.com/zh/docs/self-hosting/examples/ollama) |
-| `Open WebUI`    | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)                                                                                | [仓库地址](https://github.com/open-webui/open-webui)                                                                      |
-| `Enchanted`     | Enchanted is **iOS and macOS** app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using **Ollama**. | [仓库地址](https://github.com/gluonfield/enchanted)                                                                       |
-| `Chatbox`       | Chatbox 是一个 AI 模型桌面客户端，支持 ChatGPT、Claude、Google Gemini、Ollama 等主流模型，适用于 Windows、Mac、Linux、Web、Android 和 iOS 全平台                              | [仓库地址](https://github.com/Bin-Huang/chatbox)                                                                          |
-| `Page Assist`   | Use your locally running AI models to assist you in your web browsing. **Chrome插件**                                                          | [仓库地址](https://github.com/n4ze3m/page-assist)                                                                         |
-| `chatgpt-web`   | 仅支持`ChatGPT API`. 优秀实践: [AIchatOS](https://x.aichatos8.cn/)                                                                                  | [仓库地址](https://github.com/Chanzhaoyu/chatgpt-web)                                                                     |
-| `cherry-studio` | Cherry Studio 是一款支持多个大语言模型（LLM）服务商的桌面客户端，兼容 Windows、Mac 和 Linux 系统。                                                                          | [仓库地址](https://github.com/CherryHQ/cherry-studio)                                                                     |
-
-### 编码工具
-
-| 名称         | 描述                                                                      | 地址                                                                                       |
-| ---------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| `Cursor`   | 由Anysphere实验室开发的一款AI驱动的代码编辑器。                                           | [官网](https://www.cursor.com/)                                                            |
-| `Roo Code` | Roo Code（前身为 Roo Cline）是一款 VS Code 插件，它通过 AI 驱动的自动化、多模型支持和实验性功能增强了编码能力。 | [VS插件地址](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) |
-| Tabby      | 自托管AI代码助手                                                               | [Link](https://github.com/TabbyML/tabby)                                                 |
-|            |                                                                         |                                                                                          |
-|            |                                                                         |                                                                                          |
-|            |                                                                         |                                                                                          |
-|            |                                                                         |                                                                                          |
-|            |                                                                         |                                                                                          |
-|            |                                                                         |                                                                                          |
-
-### 学习
-
-| 名称                      | 描述                                                                                    | 地址                                                   |
-| ----------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| wandb                   | 全称:Weights & Biases, 为机器学习从业者打造最佳工具                                                   | [Link](https://github.com/wandb)                     |
-| `MiniMind`              | 「大模型」3小时完全从0训练26M的小参数GPT！                                                             | [Link](https://github.com/jingyaogong/minimind)      |
-| awesome-chatgpt-prompts | This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better. | [Link](https://github.com/f/awesome-chatgpt-prompts) |
-| LLMs-from-scratch       | 从头开始构建大型语言模型                                                                          | [Link](https://github.com/rasbt/LLMs-from-scratch)   |
-| fabric                  | AI增强人类能力                                                                              | [Link](https://github.com/danielmiessler/fabric)     |
-| LLaMA-Factory           | 微调工具:使用零代码命令行与 Web UI 轻松微调百余种大模型                                                      | [Link](https://github.com/hiyouga/LLaMA-Factory)     |
-|                         |                                                                                       |                                                      |
-|                         |                                                                                       |                                                      |
-
-### AI管理平台
-
-| 名称   | 描述           | 地址                                           |
-| ---- | ------------ | -------------------------------------------- |
-| keep | AIOps和告警管理平台 | [Link](https://github.com/keephq/keep)       |
-|      |              | [Link](https://github.com/andrewyng/aisuite) |
-|      |              |                                              |
+| 名称                      | 描述                                                     | 地址                                                   |
+| ----------------------- | ------------------------------------------------------ | ---------------------------------------------------- |
+| MiniMind                | 「大模型」3小时完全从0训练26M的小参数GPT！                              | [Link](https://github.com/jingyaogong/minimind)      |
+| awesome-chatgpt-prompts | 提供高质量、即用型提示词模板，帮助用户更高效地与大语言模型（如 ChatGPT、DeepSeek 等）交互。 | [Link](https://github.com/f/awesome-chatgpt-prompts) |
+| GPTs                    | GPT提示词漏洞集合                                             | [Link](https://github.com/linexjlin/GPTs)            |
+| fabric                  | 通过结构化 AI 提示（Patterns）​ 解决人工智能集成难题，而非单纯追求模型能力。          | [Link](https://github.com/danielmiessler/fabric)     |
+|                         |                                                        |                                                      |
+|                         |                                                        |                                                      |
