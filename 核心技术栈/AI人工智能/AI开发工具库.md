@@ -48,6 +48,7 @@
 | ONNX-TensorRT | 解析 ONNX 模型以便使用 TensorRT 执行。                                                                                 | [Link](https://github.com/onnx/onnx-tensorrt)     |
 | Accelerate    | Accelerate 是 **Hugging Face** 开源的一个方便将 PyTorch 模型迁移到 GPU/multi-GPUs/TPU/fp16/bf16 模式下训练的小巧工具。               | [Link](https://github.com/huggingface/accelerate) |
 | vLLM          | vLLM 是一个快速且易于使用的库，用于 LLM 推理和服务，和 HuggingFace 无缝集成。区别于 chatglm.cpp 和 llama.cpp，仅是在 GPU 上的模型推理加速，没有 CPU 上的加速。 | [Link](https://github.com/vllm-project/vllm)      |
+| SGLang        | SGLang 是一个面向大型语言模型和多模态语言模型的高性能服务框架。它旨在从单个 GPU 到大型分布式集群的广泛部署中实现低延迟、高吞吐量的推理。                                  | [Link](https://github.com/sgl-project/sglang)     |
 
 ### 辅助工具库
 

@@ -8,14 +8,17 @@
 
 ### 编码助手
 
-| 名称        | 描述                                                                      | 地址                                                                                       |
-| --------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| Cursor    | 由Anysphere实验室开发的一款AI驱动的代码编辑器。                                           | [官网](https://www.cursor.com/)                                                            |
-| Tabby     | 自托管AI代码助手                                                               | [Link](https://github.com/TabbyML/tabby)                                                 |
-| Roo Code  | Roo Code（前身为 Roo Cline）是一款 VS Code 插件，它通过 AI 驱动的自动化、多模型支持和实验性功能增强了编码能力。 | [VS插件地址](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) |
-| gpt-pilot | AI开发者:GPT Pilot doesn't just generate code, it builds apps!             | [Link](https://github.com/Pythagora-io/gpt-pilot)                                        |
-|           |                                                                         |                                                                                          |
-|           |                                                                         |                                                                                          |
+| 名称          | 描述                                                                            | 地址                                                                                       |
+| ----------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Cursor      | 由Anysphere实验室开发的一款AI驱动的代码编辑器。                                                 | [官网](https://www.cursor.com/)                                                            |
+| claude-code | Claude Code is an agentic coding tool.                                        | [官网](https://claude.com/product/claude-code)                                             |
+| znode       | 智谱AI推出的轻量级 **AI IDE** 编程工具，能简化 AI 编程工具（如 Claude Code、Codex、Gemini CLI等）的使用门槛。 | [官网](https://zcode-ai.com/cn)                                                            |
+| Tabby       | 自托管AI代码助手                                                                     | [Link](https://github.com/TabbyML/tabby)                                                 |
+| Roo Code    | Roo Code（前身为 Roo Cline）是一款 VS Code 插件，它通过 AI 驱动的自动化、多模型支持和实验性功能增强了编码能力。       | [VS插件地址](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) |
+| Codex       | OpenAI编程Agent                                                                 | [Link](https://github.com/openai/codex)                                                  |
+| Cline       | AI编程助手                                                                        | [Link](https://github.com/cline/cline)                                                   |
+| gpt-pilot   | AI开发者:GPT Pilot doesn't just generate code, it builds apps!                   | [Link](https://github.com/Pythagora-io/gpt-pilot)                                        |
+|             |                                                                               |                                                                                          |
 
 ### OCR
 
@@ -114,11 +117,11 @@
 
 ### 金融
 
-| 名称       | 描述           | 地址                                               |
-| -------- | ------------ | ------------------------------------------------ |
-| gs-quant | 量化金融的Python包 | [Link](https://github.com/goldmansachs/gs-quant) |
-|          |              |                                                  |
-|          |              |                                                  |
+| 名称       | 描述             | 地址                                               |
+| -------- | -------------- | ------------------------------------------------ |
+| gs-quant | 量化金融的Python包   | [Link](https://github.com/goldmansachs/gs-quant) |
+| OpenBB   | 金融数据平台 With AI | [Link](https://github.com/OpenBB-finance/OpenBB) |
+|          |                |                                                  |
 
 ### 解决方案
 
@@ -130,18 +133,21 @@
 
 ### AI助手
 
-| 名称      | 描述              | 地址                                             |
-| ------- | --------------- | ---------------------------------------------- |
-| Jan     | 本地AI助手(离线运行LLM) | [Link](https://github.com/janhq/jan)           |
-| aider5  | 命令行里的 AI 助理     | [Link](https://github.com/paul-gauthier/aider) |
-| mindsdb | 用企业数据定制 AI问答平台  | [Link](https://github.com/mindsdb/mindsdb)     |
-|         |                 |                                                |
-|         |                 |                                                |
+| 名称          | 描述                                                                                 | 地址                                              |
+| ----------- | ---------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Jan         | 本地AI助手(离线运行LLM)                                                                    | [Link](https://github.com/janhq/jan)            |
+| hyperlink   | 设备端 AI 超级助手                                                                        | [Link](https://hyperlink.nexa.ai/)              |
+| aider5      | 命令行里的 AI 助理                                                                        | [Link](https://github.com/paul-gauthier/aider)  |
+| iflow-cli   | iFlow CLI 是一款直接在终端中运行的强大 AI 助手。                                                    | [Link](https://github.com/iflow-ai/iflow-cli)   |
+| mindsdb     | 用企业数据定制 AI问答平台                                                                     | [Link](https://github.com/mindsdb/mindsdb)      |
+| blender-mcp | BlenderMCP connects Blender to Claude AI through the Model Context Protocol (MCP). | [Link](https://github.com/ahujasid/blender-mcp) |
+|             |                                                                                    |                                                 |
 
 ### 日常应用
 
 | 名称                 | 描述                                                                            | 地址                                                           |
 | ------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Zread              | 智谱AI 推出的Github 项目阅读神器，一键生成项目文档.英文版[deepwiki](https://deepwiki.org/)           | [Link](https://zread.ai/)                                    |
 | Deep-Live-Cam      | 实时视频换脸                                                                        | [Link](https://github.com/hacksider/Deep-Live-Cam)           |
 | MoneyPrinterTurbo  | 利用AI大模型，一键生成高清短视频                                                             | [Link](https://github.com/harry0703/MoneyPrinterTurbo)       |
 | screenshot-to-code | 图片转代码                                                                         | [Link](https://github.com/abi/screenshot-to-code)            |

@@ -14,4 +14,10 @@ Github: [AISystem](https://github.com/chenzomi12/AISystem)、[AIFoundation](http
 
 > **从零开始构建类 ChatGPT 的大型语言模型（LLM）​**，帮助开发者深入理解大模型的核心原理与实现细节。
 
-Github: [LLMs-from-scratch]([GitHub - rasbt/LLMs-from-scratch: Implement a ChatGPT-like LLM in PyTorch from scratch, step by step](https://github.com/rasbt/LLMs-from-scratch))
+Github: [GitHub - rasbt/LLMs-from-scratch: Implement a ChatGPT-like LLM in PyTorch from scratch, step by step](https://github.com/rasbt/LLMs-from-scratch)
+
+### 《智能体设计模式》
+
+本项目是对 Antonio Gulli 所著《Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems》的**中英文对照翻译**。该书是一部全面的技术指南，涵盖了现代人工智能系统中智能体 (Agent) 设计的核心概念和实践方法。
+
+Github: [Agentic Design Patterns](https://github.com/ginobefun/agentic-design-patterns-cn)

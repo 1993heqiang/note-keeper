@@ -14,5 +14,5 @@
 | puter            | 互联网操作系统                               | [Link](https://github.com/HeyPuter/puter)                   |
 | sealos           | 一款以 Kubernetes 为内核的云操作系统发行版           | [Link](https://github.com/labring/sealos)                   |
 | BBDown           | Bilibili Downloader. 一个命令行式哔哩哔哩下载器.   | [Link](https://github.com/nilaoda/BBDown)                   |
-|                  |                                       |                                                             |
+| BongoCat         | 跨平台互动桌宠 BongoCat，为桌面增添乐趣！             | [Link](https://github.com/ayangweb/BongoCat)                |
 |                  |                                       |                                                             |

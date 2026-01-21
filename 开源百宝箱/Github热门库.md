@@ -19,7 +19,7 @@
 | free-for-dev   | 免费的SaaS, PaaS 和 IaaS                                                                        | [Link](https://github.com/ripienaar/free-for-dev)     |
 | my-tv          | 电视直播软件                                                                                      | [Link](https://github.com/lizongying/my-tv)           |
 | Maybe          | 个人理财应用                                                                                      | [Link](https://github.com/maybe-finance/maybe)        |
-|                |                                                                                             |                                                       |
+| OpenList       | 一个支持多存储的文件列表.  alist fork repo.                                                             | [Link](https://github.com/OpenListTeam/OpenList)      |
 |                |                                                                                             |                                                       |
 
 ### 附录
