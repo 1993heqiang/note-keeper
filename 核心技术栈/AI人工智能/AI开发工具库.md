@@ -1,3 +1,5 @@
+## 基础框架/库
+
 ### 核心框架与模型库
 
 | 名称           | 描述                                                                      | 地址                                                  |
@@ -41,7 +43,7 @@
 | TRL           | Transformer Reinforcement Learning，使用强化学习来训练transformer语言模型。来自**Hugging Face**。                                  | [Link](https://github.com/huggingface/trl)       |
 | LLaMA-Factory | 微调工具:使用零代码命令行与 Web UI 轻松微调百余种大模型                                                                                 | [Link](https://github.com/hiyouga/LLaMA-Factory) |
 
-### 推理和部署
+### 模型推理
 
 | 名称            | 描述                                                                                                          | 地址                                                |
 | ------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -64,13 +66,34 @@
 | firecrawl   | 网页转LLM使用的结构化数据(**商业产品**)                                                     | [Link](https://github.com/mendableai/firecrawl)  |
 |             |                                                                              |                                                  |
 
-### 知识学习
+## 应用开发
 
-| 名称                      | 描述                                                     | 地址                                                   |
-| ----------------------- | ------------------------------------------------------ | ---------------------------------------------------- |
-| MiniMind                | 「大模型」3小时完全从0训练26M的小参数GPT！                              | [Link](https://github.com/jingyaogong/minimind)      |
-| awesome-chatgpt-prompts | 提供高质量、即用型提示词模板，帮助用户更高效地与大语言模型（如 ChatGPT、DeepSeek 等）交互。 | [Link](https://github.com/f/awesome-chatgpt-prompts) |
-| GPTs                    | GPT提示词漏洞集合                                             | [Link](https://github.com/linexjlin/GPTs)            |
-| fabric                  | 通过结构化 AI 提示（Patterns）​ 解决人工智能集成难题，而非单纯追求模型能力。          | [Link](https://github.com/danielmiessler/fabric)     |
-|                         |                                                        |                                                      |
-|                         |                                                        |                                                      |
+### AI Agent
+
+| 名称          | 描述                             | 地址                                                |
+| ----------- | ------------------------------ | ------------------------------------------------- |
+| composio    | AI agent的生产工具集                 | [Link](https://github.com/ComposioHQ/composio)    |
+| mem0        | The Memory layer for AI Agents | [Link](https://github.com/mem0ai/mem0)            |
+| agno        | 构建multi-modal Agents的轻量化库      | [Link](https://github.com/agno-agi/agno)          |
+| crewAI      | AI agent调度框架                   | [Link](https://github.com/crewAIInc/crewAI)       |
+| OpenHands   | AI开发平台:软件开发Agent               | [Link](https://github.com/All-Hands-AI/OpenHands) |
+| pydantic-ai | 生成级AI应用开发框架                    | [Link](https://github.com/pydantic/pydantic-ai)   |
+|             |                                |                                                   |
+
+### RAG
+
+| 名称      | 描述                                                              | 地址                                            |
+| ------- | --------------------------------------------------------------- | --------------------------------------------- |
+| RAGFlow | RAGFlow 是一款基于深度文档理解构建的开源 RAG（Retrieval-Augmented Generation）引擎。 | [Link](https://github.com/infiniflow/ragflow) |
+|         |                                                                 |                                               |
+|         |                                                                 |                                               |
+
+### 网关路由
+
+| 名称         | 描述                                                                              | 地址                                            |
+| ---------- | ------------------------------------------------------------------------------- | --------------------------------------------- |
+| gateway    | AI 网关:通过一个快速友好的API链接超过**多个**大型语言模型。                                             | [Link](https://github.com/Portkey-AI/gateway) |
+| aisuite    | 为开发者提供统一的接口，简化多平台大型语言模型（LLM）的调用与集成。                                             | [Link](https://github.com/andrewyng/aisuite)  |
+| openrouter | The unified interface for LLMs. Find the best models & prices for your prompts. | [官网](https://openrouter.ai/)                  |
+| llmgateway | One API for every LLM. Any model, any provider.                                 | [官网](https://llmgateway.io/)                  |
+|            |                                                                                 |                                               |
