@@ -68,6 +68,14 @@
 
 ## 应用开发
 
+### 智能体
+
+| 名称              | 描述                                                                                                                                      | 地址                                                      |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| oh-my-openagent | Oh My OpenAgent（简称 OMO，也常叫 Oh My OpenCode） 是一个运行在 OpenCode（Claude Code 开源版） 之上的多智能体编排框架，把单个 AI 助手变成一支分工协作的 AI 开发团队，自动拆任务、选模型、并行执行、保证交付。 | [Link](https://github.com/code-yeongyu/oh-my-openagent) |
+|                 |                                                                                                                                         |                                                         |
+|                 |                                                                                                                                         |                                                         |
+
 ### AI Agent
 
 | 名称          | 描述                             | 地址                                                |
@@ -87,6 +95,24 @@
 | RAGFlow | RAGFlow 是一款基于深度文档理解构建的开源 RAG（Retrieval-Augmented Generation）引擎。 | [Link](https://github.com/infiniflow/ragflow) |
 |         |                                                                 |                                               |
 |         |                                                                 |                                               |
+
+### Skills
+
+| 名称                      | 描述                                                                                                                              | 地址                                                           |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Anthropic               | Public repository for Agent Skills                                                                                              | [Link](https://github.com/anthropics/skills)                 |
+| awesome-claude-skills   | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows                               | [Link](https://github.com/ComposioHQ/awesome-claude-skills)  |
+| awesome-openclaw-skills | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞 | [Link](https://github.com/VoltAgent/awesome-openclaw-skills) |
+| Product-Manager-Skills  | 产品经理Skills                                                                                                                      | [Link](https://github.com/deanpeters/Product-Manager-Skills) |
+|                         |                                                                                                                                 |                                                              |
+
+### MCP
+
+| 名称          | 描述                                                                                 | 地址                                              |
+| ----------- | ---------------------------------------------------------------------------------- | ----------------------------------------------- |
+| blender-mcp | BlenderMCP connects Blender to Claude AI through the Model Context Protocol (MCP). | [Link](https://github.com/ahujasid/blender-mcp) |
+|             |                                                                                    |                                                 |
+|             |                                                                                    |                                                 |
 
 ### 网关路由
 

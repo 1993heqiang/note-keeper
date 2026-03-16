@@ -9,20 +9,20 @@
 
 ### 编码助手
 
-| 名称          | 描述                                                                                         | 地址                                                                                       |
-| ----------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| claude-code | Claude Code is an agentic coding tool. [ **Anthropic** ]                                   | [官网](https://claude.com/product/claude-code)                                             |
-| Codex       | Codex CLI is a coding agent from OpenAI that runs locally on your computer. [ **OpenAI** ] | [Link](https://github.com/openai/codex)                                                  |
-| opencode    | OpenCode 是一个开源代理，帮助您在终端、IDE 或桌面端编写代码。[ **Anomaly** ]                                       | [官网](https://opencode.ai)                                                                |
-| Cursor      | 由Anysphere实验室开发的一款AI驱动的代码编辑器。[ **Anysphere** ]                                             | [官网](https://www.cursor.com/)                                                            |
-| Qoder       | 一款面向真实软件开发的 Agentic 编码平台。[ **阿里云新加坡团队** ]                                                  | [官网](https://qoder.com/)                                                                 |
-| iflow-cli   | iFlow CLI 是一款直接在终端中运行的强大 AI 助手。[ **阿里心流 AI** ]                                             | [Link](https://github.com/iflow-ai/iflow-cli)                                            |
-| zcode       | 智谱AI推出的轻量级 **AI IDE** 编程工具，能简化 AI 编程工具（如 Claude Code、Codex、Gemini CLI等）的使用门槛。              | [官网](https://zcode-ai.com/cn)                                                            |
-| Cline       | 一个可以使用你的 终端 和 编辑器 的 AI 助手。**VS Code 插件**                                                   | [Link](https://github.com/cline/cline)                                                   |
-| Roo Code    | Roo Code（前身为 Roo Cline）是一款 **VS Code 插件**，它通过 AI 驱动的自动化、多模型支持和实验性功能增强了编码能力。                | [VS插件地址](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) |
-| aider       | 在终端中进行人工智能结对编程                                                                             | [Link](https://github.com/Aider-AI/aider)                                                |
-|             |                                                                                            |                                                                                          |
-|             |                                                                                            |                                                                                          |
+| 名称          | 描述                                                                                         | 地址                                                                                                              |
+| ----------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| claude-code | Claude Code is an agentic coding tool. [ **Anthropic** ]                                   | [官网](https://claude.com/product/claude-code)、[官方 Plugin](https://github.com/anthropics/claude-plugins-official) |
+| Codex       | Codex CLI is a coding agent from OpenAI that runs locally on your computer. [ **OpenAI** ] | [Link](https://github.com/openai/codex)                                                                         |
+| opencode    | OpenCode 是一个开源代理，帮助您在终端、IDE 或桌面端编写代码。[ **Anomaly** ]                                       | [官网](https://opencode.ai)                                                                                       |
+| Cursor      | 由Anysphere实验室开发的一款AI驱动的代码编辑器。[ **Anysphere** ]                                             | [官网](https://www.cursor.com/)                                                                                   |
+| Qoder       | 一款面向真实软件开发的 Agentic 编码平台。[ **阿里云新加坡团队** ]                                                  | [官网](https://qoder.com/)                                                                                        |
+| iflow-cli   | iFlow CLI 是一款直接在终端中运行的强大 AI 助手。[ **阿里心流 AI** ]                                             | [Link](https://github.com/iflow-ai/iflow-cli)                                                                   |
+| zcode       | 智谱AI推出的轻量级 **AI IDE** 编程工具，能简化 AI 编程工具（如 Claude Code、Codex、Gemini CLI等）的使用门槛。              | [官网](https://zcode-ai.com/cn)                                                                                   |
+| Cline       | 一个可以使用你的 终端 和 编辑器 的 AI 助手。**VS Code 插件**                                                   | [Link](https://github.com/cline/cline)                                                                          |
+| Roo Code    | Roo Code（前身为 Roo Cline）是一款 **VS Code 插件**，它通过 AI 驱动的自动化、多模型支持和实验性功能增强了编码能力。                | [VS插件地址](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline)                        |
+| aider       | 在终端中进行人工智能结对编程                                                                             | [Link](https://github.com/Aider-AI/aider)                                                                       |
+|             |                                                                                            |                                                                                                                 |
+|             |                                                                                            |                                                                                                                 |
 
 ### 文本转语音TTS
 
@@ -70,20 +70,19 @@
 
 ### Funny
 
-| 名称                 | 描述                                                                                 | 地址                                                           |
-| ------------------ | ---------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| Zread              | 智谱AI 推出的Github 项目阅读神器，一键生成项目文档.英文版[deepwiki](https://deepwiki.org/)                | [Link](https://zread.ai/)                                    |
-| MiroFish           | 简洁通用的群体智能引擎，预测万物                                                                   | [Link](https://github.com/666ghj/MiroFish)                   |
-| sider              | 浏览器侧边栏助手: 边浏览边聊天、总结、解释、翻译与深度研究，并将成果保存到 Wisebase，您的个性化 AI 知识库                       | [官网](https://sider.ai/)                                      |
-| OpenBB             | 金融数据平台 With AI: 面向分析师、量化分析师和人工智能代理的金融数据平台。                                         | [Link](https://github.com/OpenBB-finance/OpenBB)             |
-| coai               | 下一代 AIGC 一站式商业解决方案                                                                 | [Link](https://github.com/coaidev/coai)                      |
-| Vane               | Vane is an AI-powered answering engine.                                            | [Link](https://github.com/ItzCrazyKns/Vane)                  |
-| PDFMathTranslate   | 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务。                      | [Link](https://github.com/PDFMathTranslate/PDFMathTranslate) |
-| blender-mcp        | BlenderMCP connects Blender to Claude AI through the Model Context Protocol (MCP). | [Link](https://github.com/ahujasid/blender-mcp)              |
-| keep               | AIOps和告警管理平台                                                                       | [Link](https://github.com/keephq/keep)                       |
-| Scrapegraph-ai     | ScrapeGraphAI 是一个网络爬虫 Python 库，使用大型语言模型和直接图逻辑为网站和本地文档（XML，HTML，JSON 等）创建爬取管道。      | [Link](https://github.com/VinciGit00/Scrapegraph-ai)         |
-| screenshot-to-code | 图片转代码                                                                              | [Link](https://github.com/abi/screenshot-to-code)            |
-|                    |                                                                                    |                                                              |
+| 名称                 | 描述                                                                            | 地址                                                           |
+| ------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Zread              | 智谱AI 推出的Github 项目阅读神器，一键生成项目文档.英文版[deepwiki](https://deepwiki.org/)           | [Link](https://zread.ai/)                                    |
+| MiroFish           | 简洁通用的群体智能引擎，预测万物                                                              | [Link](https://github.com/666ghj/MiroFish)                   |
+| sider              | 浏览器侧边栏助手: 边浏览边聊天、总结、解释、翻译与深度研究，并将成果保存到 Wisebase，您的个性化 AI 知识库                  | [官网](https://sider.ai/)                                      |
+| OpenBB             | 金融数据平台 With AI: 面向分析师、量化分析师和人工智能代理的金融数据平台。                                    | [Link](https://github.com/OpenBB-finance/OpenBB)             |
+| coai               | 下一代 AIGC 一站式商业解决方案                                                            | [Link](https://github.com/coaidev/coai)                      |
+| Vane               | Vane is an AI-powered answering engine.                                       | [Link](https://github.com/ItzCrazyKns/Vane)                  |
+| PDFMathTranslate   | 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务。                 | [Link](https://github.com/PDFMathTranslate/PDFMathTranslate) |
+| keep               | AIOps和告警管理平台                                                                  | [Link](https://github.com/keephq/keep)                       |
+| Scrapegraph-ai     | ScrapeGraphAI 是一个网络爬虫 Python 库，使用大型语言模型和直接图逻辑为网站和本地文档（XML，HTML，JSON 等）创建爬取管道。 | [Link](https://github.com/VinciGit00/Scrapegraph-ai)         |
+| screenshot-to-code | 图片转代码                                                                         | [Link](https://github.com/abi/screenshot-to-code)            |
+|                    |                                                                               |                                                              |
 
 ### Web & Desktop
 
