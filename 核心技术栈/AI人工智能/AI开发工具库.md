@@ -90,21 +90,27 @@
 
 ### RAG
 
-| 名称      | 描述                                                              | 地址                                            |
-| ------- | --------------------------------------------------------------- | --------------------------------------------- |
-| RAGFlow | RAGFlow 是一款基于深度文档理解构建的开源 RAG（Retrieval-Augmented Generation）引擎。 | [Link](https://github.com/infiniflow/ragflow) |
-|         |                                                                 |                                               |
-|         |                                                                 |                                               |
+| 名称       | 描述                                                                | 地址                                            |
+| -------- | ----------------------------------------------------------------- | --------------------------------------------- |
+| RAGFlow  | RAGFlow 是一款基于深度文档理解构建的开源 RAG（Retrieval-Augmented Generation）引擎。   | [Link](https://github.com/infiniflow/ragflow) |
+| graphrag | A modular graph-based Retrieval-Augmented Generation (RAG) system | [Link](https://github.com/microsoft/graphrag) |
+|          |                                                                   |                                               |
 
 ### Skills
 
-| 名称                      | 描述                                                                                                                              | 地址                                                           |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| Anthropic               | Public repository for Agent Skills                                                                                              | [Link](https://github.com/anthropics/skills)                 |
-| awesome-claude-skills   | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows                               | [Link](https://github.com/ComposioHQ/awesome-claude-skills)  |
-| awesome-openclaw-skills | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞 | [Link](https://github.com/VoltAgent/awesome-openclaw-skills) |
-| Product-Manager-Skills  | 产品经理Skills                                                                                                                      | [Link](https://github.com/deanpeters/Product-Manager-Skills) |
-|                         |                                                                                                                                 |                                                              |
+| 名称                       | 描述                                                                                                                                                                                                                                                                            | 地址                                                             |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Anthropic                | Public repository for Agent Skills                                                                                                                                                                                                                                            | [Link](https://github.com/anthropics/skills)                   |
+| awesome-claude-skills    | GitHub有多个相同名字的仓库,挑选几个 :star:数比较多的:<br/>- `https://github.com/ComposioHQ/awesome-claude-skills`<br/>- `https://github.com/travisvn/awesome-claude-skills`<br/>- `https://github.com/BehiSecc/awesome-claude-skills`<br/>- `https://github.com/VoltAgent/awesome-claude-skills` | [Link](https://github.com/ComposioHQ/awesome-claude-skills)    |
+| claude-scientific-skills | 这个Skills资源库比较垂直，是专门科学研究的，目前包括 138 个科学Skills，涵盖生物学、化学、医学、物理学和工程等多个领域。                                                                                                                                                                                                          | [Link](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| awesome-openclaw-skills  | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞                                                                                                                                               | [Link](https://github.com/VoltAgent/awesome-openclaw-skills)   |
+| Product-Manager-Skills   | 产品经理Skills                                                                                                                                                                                                                                                                    | [Link](https://github.com/deanpeters/Product-Manager-Skills)   |
+| baoyu-skills             | 宝玉分享的 Claude Code 技能集，提升日常工作效率。                                                                                                                                                                                                                                               | [Link](https://github.com/JimLiu/baoyu-skills)                 |
+| `skills.sh`              | `https://skills.sh/trending`查看Skill的安装排名.                                                                                                                                                                                                                                     | [官网](https://skills.sh/)                                       |
+| `clawhub`                | `https://clawhub.ai/`                                                                                                                                                                                                                                                         | [官网](https://clawhub.ai/)                                      |
+| `skillsmp`               | `https://skillsmp.com/`                                                                                                                                                                                                                                                       | [官网](https://skillsmp.com/)                                    |
+| `skiload`                | `https://skiload.com/`, 发现、筛选并安装公开的Skills.                                                                                                                                                                                                                                    | [官网](https://skiload.com/)                                     |
+|                          |                                                                                                                                                                                                                                                                               |                                                                |
 
 ### MCP
 
