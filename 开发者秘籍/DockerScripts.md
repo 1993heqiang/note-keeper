@@ -1,13 +1,14 @@
 ### CoClaw
 
 ```bash
-docker run -d —name ali-copaw -p 127.0.0.1:8088:8088 \
-  -v ~/workspace/docker-data/copaw-data:/app/working \
-  -v ~/workspace/docker-data/copaw-secrets:/app/working.secret \
-  agentscope/copaw:latest
+docker run -d --name ali-qwenpaw \
+  -p 127.0.0.1:8088:8088 \
+  -v ~/workspace/docker-data/qwenpaw/qwenpaw-data:/app/working \
+  -v ~/workspace/docker-data/qwenpaw/qwenpaw-secrets:/app/working.secret \
+  -v ~/workspace/docker-data/qwenpaw/qwenpaw-backups:/app/working.backups \
+  --env-file ~/workspace/docker-data/qwenpaw/.env \
+  agentscope/qwenpaw:v1.1.2
 ```
-
-
 
 ### linuxserver/firefox
 
@@ -30,5 +31,3 @@ docker run -d \
   --restart unless-stopped \
   linuxserver/firefox:latest
 ```
-
-

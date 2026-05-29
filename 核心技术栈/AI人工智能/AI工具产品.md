@@ -1,11 +1,29 @@
+### Agent
+
+| 名称            | 描述              | 地址                                                      |
+| ------------- | --------------- | ------------------------------------------------------- |
+| TradingAgents | 多智能体 LLM 金融交易框架 | [Link](https://github.com/tauricresearch/tradingagents) |
+| QuantDinger   | 你的私有化 AI 量化操作系统 | [Link](https://github.com/brokermr810/QuantDinger)      |
+|               |                 |                                                         |
+|               |                 |                                                         |
+
+### AI浏览器
+
+| 名称     | 描述                           | 地址                               |
+| ------ | ---------------------------- | -------------------------------- |
+| Tabbit | Tabbit 是美团光年之外团队推出的 AI 原生浏览器 | [官网](https://www.tabbit-ai.com/) |
+|        |                              |                                  |
+|        |                              |                                  |
+
 ### 本地AI助手
 
-| 名称        | 描述                                                    | 地址                                      |
-| --------- | ----------------------------------------------------- | --------------------------------------- |
-| Jan       | 本地AI助手(离线运行LLM),对标Ollama.                             | [Link](https://github.com/janhq/jan)    |
-| hyperlink | 设备端 AI 超级助手                                           | [Link](https://hyperlink.nexa.ai/)      |
-| khoj      | 通过智能检索与对话技术整合用户的本地文档与在线信息，打造“第二大脑”以提升知识管理效率和工作流智能化水平。 | [Link](https://github.com/khoj-ai/khoj) |
-|           |                                                       |                                         |
+| 名称        | 描述                                                       | 地址                                      |
+| --------- | -------------------------------------------------------- | --------------------------------------- |
+| Jan       | 本地AI助手(离线运行LLM),对标Ollama.                                | [Link](https://github.com/janhq/jan)    |
+| hyperlink | 设备端 AI 超级助手                                              | [Link](https://hyperlink.nexa.ai/)      |
+| khoj      | 通过智能检索与对话技术整合用户的本地文档与在线信息，打造“第二大脑”以提升知识管理效率和工作流智能化水平。    | [Link](https://github.com/khoj-ai/khoj) |
+| Flipbook  | Flipbook 是一个跨越实体、数字、AI 三个时代的概念，核心都是 **“翻页产生动态 / 交互体验”**。 | [官网]()                                  |
+|           |                                                          |                                         |
 
 ### 编码助手
 
@@ -37,14 +55,15 @@
 
 ### 文档处理
 
-| 名称      | 描述                                                            | 地址                                            |
-| ------- | ------------------------------------------------------------- | --------------------------------------------- |
-| docling | 文档解析工具:PDF, DOCX, XLSX, HTML, images, and more                | [Link](https://github.com/DS4SD/docling)      |
-| marker  | PDF转markdown                                                  | [Link](https://github.com/datalab-to/marker)  |
-| surya   | 文档OCR识别工具包                                                    | [Link](https://github.com/datalab-to/surya)   |
-| MinerU  | 一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。                        | [Link](https://github.com/opendatalab/MinerU) |
-| Umi-OCR | 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。 | [Link](https://github.com/hiroi-sora/Umi-OCR) |
-|         |                                                               |                                               |
+| 名称         | 描述                                                                                     | 地址                                              |
+| ---------- | -------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| docling    | 文档解析工具:PDF, DOCX, XLSX, HTML, images, and more                                         | [Link](https://github.com/DS4SD/docling)        |
+| marker     | PDF转markdown                                                                           | [Link](https://github.com/datalab-to/marker)    |
+| surya      | 文档OCR识别工具包                                                                             | [Link](https://github.com/datalab-to/surya)     |
+| MinerU     | 一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。                                                 | [Link](https://github.com/opendatalab/MinerU)   |
+| Umi-OCR    | 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。                          | [Link](https://github.com/hiroi-sora/Umi-OCR)   |
+| markitdown | 微软 AutoGen 团队开源的轻量级 Python 工具，核心是把 15+ 种格式统一转成结构化 Markdown，专为 LLM 输入、RAG 知识库、文档预处理 设计。 | [Link](https://github.com/microsoft/markitdown) |
+|            |                                                                                        |                                                 |
 
 ### 数据查询
 
@@ -67,6 +86,9 @@
 | deepface          | 轻量级面部识别库                                             | [Link](https://github.com/serengil/deepface)             |
 | ebook2audiobook   | 电子书转有声书                                              | [Link](https://github.com/DrewThomasson/ebook2audiobook) |
 | roop              | AI一键换脸 (**停止维护**)                                    | [Link](https://github.com/s0md3v/roop)                   |
+| next-ai-draw-io   | AI驱动的图表创建工具 - 对话、绘制、可视化                              | [Link](https://github.com/DayuanJiang/next-ai-draw-io)   |
+|                   |                                                      |                                                          |
+|                   |                                                      |                                                          |
 
 ### Funny
 
@@ -82,6 +104,8 @@
 | keep               | AIOps和告警管理平台                                                                  | [Link](https://github.com/keephq/keep)                       |
 | Scrapegraph-ai     | ScrapeGraphAI 是一个网络爬虫 Python 库，使用大型语言模型和直接图逻辑为网站和本地文档（XML，HTML，JSON 等）创建爬取管道。 | [Link](https://github.com/VinciGit00/Scrapegraph-ai)         |
 | screenshot-to-code | 图片转代码                                                                         | [Link](https://github.com/abi/screenshot-to-code)            |
+| follow-builders    | 一个 AI 驱动的信息聚合工具，追踪 AI 领域最顶尖的建造者——研究员、创始人、产品经理和工程师——并将他们的最新动态整理成易于消化的摘要推送给你。   | [Link](https://github.com/zarazhangrui/follow-builders)      |
+| aihot              | AI 行业一站式信息监控与创作工作台，核心是聚合全球一手信源、自动降噪精选、支持 Agent 接入，帮你高效追踪 AI 动态。               | [官网](https://aihot.virxact.com/)                             |
 |                    |                                                                               |                                                              |
 
 ### Web & Desktop

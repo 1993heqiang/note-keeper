@@ -9,14 +9,14 @@
 | `hyperfine` | A command-line benchmarking tool.                                         | [Link](https://github.com/sharkdp/hyperfine)               | 待评估                |
 |             |                                                                           |                                                            |                    |
 
-### ​API 开发与测试
+### ​自动化测试
 
-| 名称        | 描述                                                    | 地址                                        |
-| --------- | ----------------------------------------------------- | ----------------------------------------- |
-| `Reqable` | Reqable是新一代API调试 + API测试一站化解决方案.类似于apifox、postman等工具. | [Link](https://reqable.com/zh-CN/)        |
-| `bruno`   | Bruno 是一款全新且创新的 API 客户端，旨在颠覆 Postman 和其他类似工具。         | [Link](https://github.com/usebruno/bruno) |
-|           |                                                       |                                           |
-|           |                                                       |                                           |
+| 名称           | 描述                                                             | 地址                                              |
+| ------------ | -------------------------------------------------------------- | ----------------------------------------------- |
+| `Reqable`    | Reqable是新一代API调试 + API测试一站化解决方案.类似于apifox、postman等工具.          | [Link](https://reqable.com/zh-CN/)              |
+| `bruno`      | Bruno 是一款全新且创新的 API 客户端，旨在颠覆 Postman 和其他类似工具。                  | [Link](https://github.com/usebruno/bruno)       |
+| `playwright` | 自动化浏览器工具,可以让代码自动控制 Chrome、Firefox、Safari、Edge 等浏览器，做任何人类能做的操作。 | [Link](https://github.com/microsoft/playwright) |
+|              |                                                                |                                                 |
 
 ### 其他
 

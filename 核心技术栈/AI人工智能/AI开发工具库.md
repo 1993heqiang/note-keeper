@@ -37,11 +37,12 @@
 
 ### 大模型微调与适配
 
-| 名称            | 描述                                                                                                               | 地址                                               |
-| ------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| PEFT          | Parameter-Efficient Fine-Tuning，PEFT技术旨在通过最小化微调参数的数量和计算复杂度，来提高预训练模型在新任务上的性能，从而缓解大型预训练模型的训练成本。来自**Hugging Face**。 | [Link](https://github.com/huggingface/peft)      |
-| TRL           | Transformer Reinforcement Learning，使用强化学习来训练transformer语言模型。来自**Hugging Face**。                                  | [Link](https://github.com/huggingface/trl)       |
-| LLaMA-Factory | 微调工具:使用零代码命令行与 Web UI 轻松微调百余种大模型                                                                                 | [Link](https://github.com/hiyouga/LLaMA-Factory) |
+| 名称             | 描述                                                                                                               | 地址                                               |
+| -------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| unsloth-studio | 可视化微调，Unsloth 是目前性价比最高的大模型微调工具，用最少的显存、最短的时间，让普通人也能轻松定制自己的大模型。                                                    | [官网](https://unsloth.ai/)                        |
+| PEFT           | Parameter-Efficient Fine-Tuning，PEFT技术旨在通过最小化微调参数的数量和计算复杂度，来提高预训练模型在新任务上的性能，从而缓解大型预训练模型的训练成本。来自**Hugging Face**。 | [Link](https://github.com/huggingface/peft)      |
+| TRL            | Transformer Reinforcement Learning，使用强化学习来训练transformer语言模型。来自**Hugging Face**。                                  | [Link](https://github.com/huggingface/trl)       |
+| LLaMA-Factory  | 微调工具:使用零代码命令行与 Web UI 轻松微调百余种大模型                                                                                 | [Link](https://github.com/hiyouga/LLaMA-Factory) |
 
 ### 模型推理
 
@@ -51,6 +52,8 @@
 | Accelerate    | Accelerate 是 **Hugging Face** 开源的一个方便将 PyTorch 模型迁移到 GPU/multi-GPUs/TPU/fp16/bf16 模式下训练的小巧工具。               | [Link](https://github.com/huggingface/accelerate) |
 | vLLM          | vLLM 是一个快速且易于使用的库，用于 LLM 推理和服务，和 HuggingFace 无缝集成。区别于 chatglm.cpp 和 llama.cpp，仅是在 GPU 上的模型推理加速，没有 CPU 上的加速。 | [Link](https://github.com/vllm-project/vllm)      |
 | SGLang        | SGLang 是一个面向大型语言模型和多模态语言模型的高性能服务框架。它旨在从单个 GPU 到大型分布式集群的广泛部署中实现低延迟、高吞吐量的推理。                                  | [Link](https://github.com/sgl-project/sglang)     |
+| llama.cpp     | LLM inference in C/C++ (Ollama、LM Studio、LocalAI 都用它做内核)                                                    | [Link](https://github.com/ggml-org/llama.cpp)     |
+|               |                                                                                                             |                                                   |
 
 ### 辅助工具库
 
@@ -64,29 +67,45 @@
 | ZLUDA       | CUDA on AMD GPUs                                                             | [Link](https://github.com/vosen/ZLUDA)           |
 | supervision | 计算机视觉工具库                                                                     | [Link](https://github.com/roboflow/supervision)  |
 | firecrawl   | 网页转LLM使用的结构化数据(**商业产品**)                                                     | [Link](https://github.com/mendableai/firecrawl)  |
+| Pydantic    | Pydantic 是 Python 数据验证与解析神器，通过定义数据模型实现自动类型校验、格式转换、错误提示，大幅提升代码健壮性与开发效率。       | [Link](https://github.com/pydantic/pydantic)     |
+|             |                                                                              |                                                  |
 |             |                                                                              |                                                  |
 
 ## 应用开发
 
+### 本地模型
+
+| 名称      | 描述                                                                                             | 地址                                        |
+| ------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| Fara-7B | 专为计算机操作设计的轻量级多模态智能体模型（Computer Use Agent, CUA），核心是用视觉理解屏幕、模拟鼠标 / 键盘完成网页与桌面自动化，主打本地运行、低延迟、隐私优先. | [Link](https://github.com/microsoft/fara) |
+|         |                                                                                                |                                           |
+|         |                                                                                                |                                           |
+
 ### 智能体
 
-| 名称              | 描述                                                                                                                                      | 地址                                                      |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| oh-my-openagent | Oh My OpenAgent（简称 OMO，也常叫 Oh My OpenCode） 是一个运行在 OpenCode（Claude Code 开源版） 之上的多智能体编排框架，把单个 AI 助手变成一支分工协作的 AI 开发团队，自动拆任务、选模型、并行执行、保证交付。 | [Link](https://github.com/code-yeongyu/oh-my-openagent) |
-|                 |                                                                                                                                         |                                                         |
-|                 |                                                                                                                                         |                                                         |
+| 名称                | 描述                                                                                                                                      | 地址                                                           |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| oh-my-openagent   | Oh My OpenAgent（简称 OMO，也常叫 Oh My OpenCode） 是一个运行在 OpenCode（Claude Code 开源版） 之上的多智能体编排框架，把单个 AI 助手变成一支分工协作的 AI 开发团队，自动拆任务、选模型、并行执行、保证交付。 | [Link](https://github.com/code-yeongyu/oh-my-openagent)      |
+| Project N.O.M.A.D | 一个开源、离线优先、Docker 容器化的本地知识 / AI 服务器，主打 “断网也能活” 的生存级信息能力。                                                                                 | [Link](https://github.com/Crosstalk-Solutions/project-nomad) |
+| pi-mono           | AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods. **OpenClaw的核心**                      | [Link](https://github.com/earendil-works/pi)                 |
+| OpenViking        | AI 智能体的上下文数据库                                                                                                                           | [Link](https://github.com/volcengine/OpenViking)             |
+|                   |                                                                                                                                         |                                                              |
 
 ### AI Agent
 
-| 名称          | 描述                             | 地址                                                |
-| ----------- | ------------------------------ | ------------------------------------------------- |
-| composio    | AI agent的生产工具集                 | [Link](https://github.com/ComposioHQ/composio)    |
-| mem0        | The Memory layer for AI Agents | [Link](https://github.com/mem0ai/mem0)            |
-| agno        | 构建multi-modal Agents的轻量化库      | [Link](https://github.com/agno-agi/agno)          |
-| crewAI      | AI agent调度框架                   | [Link](https://github.com/crewAIInc/crewAI)       |
-| OpenHands   | AI开发平台:软件开发Agent               | [Link](https://github.com/All-Hands-AI/OpenHands) |
-| pydantic-ai | 生成级AI应用开发框架                    | [Link](https://github.com/pydantic/pydantic-ai)   |
-|             |                                |                                                   |
+| 名称            | 描述                                                                | 地址                                                    |
+| ------------- | ----------------------------------------------------------------- | ----------------------------------------------------- |
+| composio      | AI agent的生产工具集                                                    | [Link](https://github.com/ComposioHQ/composio)        |
+| mem0          | The Memory layer for AI Agents                                    | [Link](https://github.com/mem0ai/mem0)                |
+| agno          | 构建multi-modal Agents的轻量化库                                         | [Link](https://github.com/agno-agi/agno)              |
+| CrewAI        | AI agent调度框架(多Agent协作)                                            | [Link](https://github.com/crewAIInc/crewAI)           |
+| OpenHands     | AI开发平台:软件开发Agent                                                  | [Link](https://github.com/All-Hands-AI/OpenHands)     |
+| pydantic-ai   | 生成级AI应用开发框架                                                       | [Link](https://github.com/pydantic/pydantic-ai)       |
+| agency-agents | 开源 AI 专家代理库，核心是把真实企业的专业岗位打包成可直接调用的 AI 角色，解决通用大模型 “样样通、样样松” 的落地痛点。 | [Link](https://github.com/msitarzewski/agency-agents) |
+| CLI-Anything  | 让所有软件都能被 Agent 驱动                                                 | [Link](https://github.com/HKUDS/CLI-Anything)         |
+| hermes-agent  | 自进化、持久记忆型 AI 智能体，核心是越用越聪明、数据全本地、多平台触达，主打个人 / 团队自动化与长期记忆           | [Link](https://github.com/nousresearch/hermes-agent)  |
+|               |                                                                   |                                                       |
+|               |                                                                   |                                                       |
 
 ### RAG
 
@@ -104,12 +123,16 @@
 | awesome-claude-skills    | GitHub有多个相同名字的仓库,挑选几个 :star:数比较多的:<br/>- `https://github.com/ComposioHQ/awesome-claude-skills`<br/>- `https://github.com/travisvn/awesome-claude-skills`<br/>- `https://github.com/BehiSecc/awesome-claude-skills`<br/>- `https://github.com/VoltAgent/awesome-claude-skills` | [Link](https://github.com/ComposioHQ/awesome-claude-skills)    |
 | claude-scientific-skills | 这个Skills资源库比较垂直，是专门科学研究的，目前包括 138 个科学Skills，涵盖生物学、化学、医学、物理学和工程等多个领域。                                                                                                                                                                                                          | [Link](https://github.com/K-Dense-AI/claude-scientific-skills) |
 | awesome-openclaw-skills  | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞                                                                                                                                               | [Link](https://github.com/VoltAgent/awesome-openclaw-skills)   |
+| mattpocock/skills        | TypeScript 大神 Matt Pocock 开源的一套AI 编程工程化技能库                                                                                                                                                                                                                                    | [Link](https://github.com/mattpocock/skills)                   |
 | Product-Manager-Skills   | 产品经理Skills                                                                                                                                                                                                                                                                    | [Link](https://github.com/deanpeters/Product-Manager-Skills)   |
 | baoyu-skills             | 宝玉分享的 Claude Code 技能集，提升日常工作效率。                                                                                                                                                                                                                                               | [Link](https://github.com/JimLiu/baoyu-skills)                 |
 | `skills.sh`              | `https://skills.sh/trending`查看Skill的安装排名.                                                                                                                                                                                                                                     | [官网](https://skills.sh/)                                       |
 | `clawhub`                | `https://clawhub.ai/`                                                                                                                                                                                                                                                         | [官网](https://clawhub.ai/)                                      |
 | `skillsmp`               | `https://skillsmp.com/`                                                                                                                                                                                                                                                       | [官网](https://skillsmp.com/)                                    |
 | `skiload`                | `https://skiload.com/`, 发现、筛选并安装公开的Skills.                                                                                                                                                                                                                                    | [官网](https://skiload.com/)                                     |
+| andrej-karpathy-skills   | 一个单一的 CLAUDE.md 文件，用于改善 Claude Code 的行为，源自 Andrej Karpathy 的观察 关于 LLM 编码陷阱的总结。                                                                                                                                                                                                | [Link](https://github.com/forrestchang/andrej-karpathy-skills) |
+| superpowers              | 用一套可组合的 Skills 与硬约束，让 AI 像资深工程师一样按流程、高质量写代码，解决 “快而乱、返工多” 的痛点。                                                                                                                                                                                                                 | [Link](https://github.com/obra/superpowers)                    |
+| nuwa-skill               | 女娲帮你蒸馏任何人的思维方式，让乔布斯、马斯克、芒格、费曼都给你打工。                                                                                                                                                                                                                                           | [Link](https://github.com/alchaincyf/nuwa-skill)               |
 |                          |                                                                                                                                                                                                                                                                               |                                                                |
 
 ### MCP
@@ -129,3 +152,12 @@
 | openrouter | The unified interface for LLMs. Find the best models & prices for your prompts. | [官网](https://openrouter.ai/)                  |
 | llmgateway | One API for every LLM. Any model, any provider.                                 | [官网](https://llmgateway.io/)                  |
 |            |                                                                                 |                                               |
+
+### Coding Agent
+
+| 名称                     | 描述                                                                       | 地址                                                         |
+| ---------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| everything-claude-code | 来自 Anthropic 黑客马拉松获胜者的完整 Claude Code 配置集合。                               | [Link](https://github.com/affaan-m/everything-claude-code) |
+| claude-hud             | 一个 Claude Code 插件，实时显示正在发生的事情——上下文使用率、活跃工具、运行中的 Agent 和待办进度。始终在你的输入下方可见。 | [Link](https://github.com/jarrodwatts/claude-hud)          |
+| rtk                    | rtk 在命令输出到达 LLM 上下文之前进行过滤和压缩。单一 Rust 二进制文件，零依赖，<10ms 开销。                 | [Link](https://github.com/rtk-ai/rtk)                      |
+|                        |                                                                          |                                                            |
