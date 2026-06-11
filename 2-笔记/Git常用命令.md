@@ -3,19 +3,19 @@
 ### config
 
 - 查看配置项及来源
-  
+
   ```shell
   # 查看所有配置及来源
   git config --show-origin --list
-  
+
   # 查看特定配置项的来源
   git config --show-origin user.name
-  
+
   # 查看匹配特定模式的配置项来源
   git config --show-origin --get-regexp user
   ```
 
-- 
+-
 
 ## 配置参数
 
@@ -174,7 +174,7 @@ git config --show-origin user.name
 - 直接把仓库目录移动到 `~/workspace/multi-hub/<platform>/` 下即可
 
 - 如果之前手动设过 `git config --local user.name`，清除后让 `includeIf` 接管：
-  
+
   ```bash
   git config --local --unset user.name
   git config --local --unset user.email
