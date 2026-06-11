@@ -9,7 +9,7 @@
 | 文件 | 说明 |
 |------|------|
 | `ClaudeCode命令速查.md` | Claude Code CLI 命令参考 |
-| `Git多账号配置.md` | Git 多平台账号数据隔离方案 |
+| `Git常用命令.md` | Git 常用命令与多账号配置 |
 | `Docker脚本.md` | 常用 Docker 运行脚本 |
 | `Python语法笔记.md` | Python 官方教程学习笔记 |
 | `Java生态笔记.md` | Java 常用库与组织整理 |

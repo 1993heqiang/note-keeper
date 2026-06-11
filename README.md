@@ -6,7 +6,7 @@
 
 ## 仓库导航
 
-这个仓库按**使用深度**分为四层。打开时先看「工具箱」，按需翻阅「发现清单」。
+按**使用深度**分为四层。打开先看「工具箱」，按需翻阅「发现清单」。
 
 ### 🔧 1-工具箱
 
@@ -25,7 +25,7 @@
 | 文件 | 内容 |
 |---|---|
 | [ClaudeCode命令速查](2-笔记/ClaudeCode命令速查.md) | Claude Code CLI 命令参考 |
-| [Git多账号配置](2-笔记/Git多账号配置.md) | Git 多平台账号数据隔离 |
+| [Git常用命令](2-笔记/Git常用命令.md) | Git 常用命令与多账号配置 |
 | [Docker脚本](2-笔记/Docker脚本.md) | 常用 Docker 运行脚本 |
 | [Python语法笔记](2-笔记/Python语法笔记.md) | Python 官方教程学习笔记 |
 | [Java生态笔记](2-笔记/Java生态笔记.md) | Java 常用库与组织整理 |
@@ -42,7 +42,6 @@
 | [AI开发框架与工具](3-发现/AI开发框架与工具.md) | 训练/推理/Agent 框架 |
 | [AI产品与应用](3-发现/AI产品与应用.md) | 编码助手、TTS、文档处理 |
 | [AI学习资源](3-发现/AI学习资源.md) | 课程、书籍、教程 |
-| [Java库](2-笔记/Java生态笔记.md) | → 已整合到笔记 |
 | [Python库](3-发现/Python库.md) | Python 常用库 |
 | [Web与API工具](3-发现/Web与API工具.md) | 测试、调试工具 |
 | [前端工具](3-发现/前端工具.md) | JS 库、Deno、UI 自动化 |
@@ -57,9 +56,73 @@
 
 ---
 
-## 维护
+## 收件箱
 
-- **收件箱**：新发现随手扔进 [_收件箱.md](_收件箱.md)，每月整理一次
-- **收录标准**：见 [3-发现/README.md](3-发现/README.md)
-- **格式规范**：见 [_格式规范.md](_格式规范.md)
-- **Emoji 参考**: [Link](https://gist.github.com/rxaviers/7360908)
+> 新发现随手扔进来，每月整理一次，分类到对应层级或丢弃。
+
+- [ ] pencil ai（pencil.dev）
+- [ ] cat-cafe-tutorials(github)
+- [ ] Linux 命令: `ip a`
+- [ ] Napkin.ai（文本转图像）
+- [ ] Gamma（AI PPT）
+- [ ] SenseNova-U1（做信息图）
+- [ ] [OpenMAIC — 清华大学开源多智能体互动课堂平台](https://openmaic.io/zh/)
+- [ ] OpenRelay
+- [ ] Datawhale
+- [ ] deepseek-tui
+- [ ] 飞书CLI
+- [ ] browser-act-skill-forge
+- [ ] nonelinear.com / ofox.ai / 302.ai / OpenRouter
+- [ ] github学习: architect-awesome, advanced-java, clean-code-javascript
+- [ ] Scrapling
+- [ ] claude-code-best
+- [ ] Tsec-Hackathon（腾讯云智能渗透黑客松）
+- [ ] Fission-AI/OpenSpec
+- [ ] ppt-master
+- [ ] CodeWhale
+- [ ] warpdotdev/warp
+- [ ] esengine/deepseek-reasonix
+- [ ] nousresearch/hermes-agent
+
+---
+
+## 格式规范
+
+### 通用表格
+
+```markdown
+| 名称 | 描述 | 地址 | 状态 |
+|------|------|------|------|
+| `tool-name` | 一句话中文描述。 | [Link](url) | :star::star::star: |
+```
+
+| 列 | 说明 |
+|---|---|
+| **名称** | 反引号包裹，大小写保持原样 |
+| **描述** | 一句中文描述，不换行 |
+| **地址** | `[Link](url)` 或 `[官网](url)` |
+| **状态** | 见下方状态标记 |
+
+### 状态标记
+
+| 标记 | 含义 | 使用场景 |
+|------|------|----------|
+| :white_check_mark: | 正在使用 | 已安装配置，每周使用 |
+| :star::star::star: | 强烈推荐 | 评估过，生产级质量 |
+| :star::star: | 值得了解 | 好工具，有特定场景 |
+| :star: | 有趣但小众 | 质量不错，适用范围窄 |
+| 空 | 尚未评估 | 刚发现，还没试过 |
+| :x: | 不推荐/已废弃 | 评估后否决，或已知问题 |
+
+### 命名约定
+
+- 文件名：中文 + 英文技术名词（如 `ClaudeCode命令速查.md`）
+- 目录名：中文，体现用途
+- 不使用空格
+
+### 其他
+
+- 不保留空行表格行（`| | | |`）
+- 链接优先 GitHub 地址，其次官网，不用裸 URL
+- 每季度检查一次 Tier 3，同类超 5 个时精简
+- Emoji 参考: [Link](https://gist.github.com/rxaviers/7360908)
