@@ -6,13 +6,11 @@
 
 ## 文件列表
 
-| 文件                    | 说明                               |
-| ----------------------- | ---------------------------------- |
-| `ClaudeCode命令速查.md` | Claude Code CLI 命令参考           |
-| `Git常用命令.md`        | Git 常用命令与多账号配置           |
-| `Docker脚本.md`         | 常用 Docker 运行脚本               |
-| `Python语法笔记.md`     | Python 官方教程学习笔记            |
-| `Java生态笔记.md`       | Java 常用库与组织整理              |
-| `大模型模型格式.md`     | GGUF / Safetensors / ONNX 格式详解 |
-| `昇腾学习笔记.md`       | 华为昇腾 AI 硬件学习记录           |
-| `AI知识体系图谱.md`     | AI 知识体系参考图谱                |
+| 文件                    | 说明                     |
+| ----------------------- | ------------------------ |
+| `ClaudeCode命令速查.md` | Claude Code CLI 命令参考 |
+| `Skills与MCP生态.md`    | Skills 和 MCP 生态追踪   |
+| `Git常用命令.md`        | Git 常用命令与多账号配置 |
+| `Docker脚本.md`         | 常用 Docker 运行脚本     |
+| `Python语法笔记.md`     | Python 官方教程学习笔记  |
+| `Java生态笔记.md`       | Java 常用库与组织整理    |

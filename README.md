@@ -32,16 +32,14 @@
 
 我自己写的或整理的配置、学习记录。
 
-| 文件                                               | 内容                      |
-| -------------------------------------------------- | ------------------------- |
-| [ClaudeCode命令速查](2-笔记/ClaudeCode命令速查.md) | Claude Code CLI 命令参考  |
-| [Git常用命令](2-笔记/Git常用命令.md)               | Git 常用命令与多账号配置  |
-| [Docker脚本](2-笔记/Docker脚本.md)                 | 常用 Docker 运行脚本      |
-| [Python语法笔记](2-笔记/Python语法笔记.md)         | Python 官方教程学习笔记   |
-| [Java生态笔记](2-笔记/Java生态笔记.md)             | Java 常用库与组织整理     |
-| [大模型模型格式](2-笔记/大模型模型格式.md)         | GGUF / Safetensors / ONNX |
-| [昇腾学习笔记](2-笔记/昇腾学习笔记.md)             | 华为昇腾 AI 硬件生态      |
-| [AI知识体系图谱](2-笔记/AI知识体系图谱.md)         | AI 知识体系参考图谱       |
+| 文件                                               | 内容                     |
+| -------------------------------------------------- | ------------------------ |
+| [ClaudeCode命令速查](2-笔记/ClaudeCode命令速查.md) | Claude Code CLI 命令参考 |
+| [Skills与MCP生态](2-笔记/Skills与MCP生态.md)       | Skills 和 MCP 生态追踪   |
+| [Git常用命令](2-笔记/Git常用命令.md)               | Git 常用命令与多账号配置 |
+| [Docker脚本](2-笔记/Docker脚本.md)                 | 常用 Docker 运行脚本     |
+| [Python语法笔记](2-笔记/Python语法笔记.md)         | Python 官方教程学习笔记  |
+| [Java生态笔记](2-笔记/Java生态笔记.md)             | Java 常用库与组织整理    |
 
 ### 👀 3-发现
 
@@ -81,11 +79,9 @@
 - [ ] Datawhale
 - [ ] deepseek-tui
 - [ ] 飞书CLI
-- [ ] browser-act-skill-forge
 - [ ] nonelinear.com / ofox.ai / 302.ai / OpenRouter
 - [ ] github学习: architect-awesome, advanced-java, clean-code-javascript
 - [ ] Scrapling
-- [ ] claude-code-best
 - [ ] Tsec-Hackathon（腾讯云智能渗透黑客松）
 - [ ] Fission-AI/OpenSpec
 - [ ] ppt-master
