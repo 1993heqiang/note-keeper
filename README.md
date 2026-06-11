@@ -4,6 +4,16 @@
 
 ---
 
+> **⚙️ 首次克隆后执行：**
+>
+> ```
+> git config core.hooksPath .githooks
+> ```
+>
+> 之后每次 `git commit` 会自动用 Prettier 格式化 Markdown 文件。
+
+---
+
 ## 仓库导航
 
 按**使用深度**分为四层。打开先看「工具箱」，按需翻阅「发现清单」。
