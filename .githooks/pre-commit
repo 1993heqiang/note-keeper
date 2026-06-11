@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# 提交前自动格式化 Markdown 文件
+# 依赖: prettier (通过 npx 或全局安装)
+
+PRETTIER=""
+
+if command -v npx &>/dev/null; then
+  PRETTIER="npx prettier"
+elif command -v prettier &>/dev/null; then
+  PRETTIER="prettier"
+fi
+
+if [ -z "$PRETTIER" ]; then
+  echo "⚠️  [pre-commit] prettier 未安装，跳过 Markdown 格式化。"
+  echo "    安装方式: npm install -g prettier"
+  exit 0
+fi
+
+echo "→ [pre-commit] 格式化 Markdown 文件..."
+$PRETTIER --write "**/*.md" 2>/dev/null
+
+# 将格式化后的改动重新加入暂存区
+git add -u "*.md" 2>/dev/null
+
+echo "✓ [pre-commit] Markdown 格式化完成"
+exit 0
