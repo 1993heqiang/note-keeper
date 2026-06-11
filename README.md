@@ -89,6 +89,7 @@
 - [ ] warpdotdev/warp
 - [ ] esengine/deepseek-reasonix
 - [ ] nousresearch/hermes-agent
+- [ ] claude-code-best — Claude Code 最佳实践配置合集
 
 ---
 
