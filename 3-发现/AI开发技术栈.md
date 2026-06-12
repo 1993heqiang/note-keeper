@@ -123,14 +123,15 @@
 
 ### 模型推理
 
-| 名称            | 描述                                                                 | 地址                                              |
-| --------------- | -------------------------------------------------------------------- | ------------------------------------------------- |
-| `vLLM`          | 快速且易用的 LLM 推理和服务库，与 HuggingFace 无缝集成（GPU 加速）。 | [Link](https://github.com/vllm-project/vllm)      |
-| `SGLang`        | 面向 LLM 和多模态模型的高性能服务框架，低延迟高吞吐。                | [Link](https://github.com/sgl-project/sglang)     |
-| `llama.cpp`     | C/C++ LLM 推理引擎（Ollama、LM Studio、LocalAI 的内核）。            | [Link](https://github.com/ggml-org/llama.cpp)     |
-| `ONNX-TensorRT` | 解析 ONNX 模型以便使用 TensorRT 执行推理。                           | [Link](https://github.com/onnx/onnx-tensorrt)     |
-| `Accelerate`    | HuggingFace 出品，方便将 PyTorch 模型迁移到 GPU/TPU 等硬件。         | [Link](https://github.com/huggingface/accelerate) |
-| `Fara-7B`       | Microsoft 出品，专为计算机操作设计的轻量级多模态 CUA 模型。          | [Link](https://github.com/microsoft/fara)         |
+| 名称            | 描述                                                                 | 地址                                                  |
+| --------------- | -------------------------------------------------------------------- | ----------------------------------------------------- |
+| `vLLM`          | 快速且易用的 LLM 推理和服务库，与 HuggingFace 无缝集成（GPU 加速）。 | [Link](https://github.com/vllm-project/vllm)          |
+| `SGLang`        | 面向 LLM 和多模态模型的高性能服务框架，低延迟高吞吐。                | [Link](https://github.com/sgl-project/sglang)         |
+| `llama.cpp`     | C/C++ LLM 推理引擎（Ollama、LM Studio、LocalAI 的内核）。            | [Link](https://github.com/ggml-org/llama.cpp)         |
+| `ONNX-TensorRT` | 解析 ONNX 模型以便使用 TensorRT 执行推理。                           | [Link](https://github.com/onnx/onnx-tensorrt)         |
+| `Accelerate`    | HuggingFace 出品，方便将 PyTorch 模型迁移到 GPU/TPU 等硬件。         | [Link](https://github.com/huggingface/accelerate)     |
+| `Fara-7B`       | Microsoft 出品，专为计算机操作设计的轻量级多模态 CUA 模型。          | [Link](https://github.com/microsoft/fara)             |
+| `SenseNova-U1`  | 商汤出品，原生多模态模型系列，统一多模态理解、推理与生成。           | [Link](https://github.com/OpenSenseNova/SenseNova-U1) |
 
 ---
 
