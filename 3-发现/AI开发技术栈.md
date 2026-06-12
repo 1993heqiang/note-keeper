@@ -62,13 +62,14 @@
 
 ### AI 编码工具
 
-| 名称                     | 描述                                                                    | 地址                                                       |
-| ------------------------ | ----------------------------------------------------------------------- | ---------------------------------------------------------- |
-| `rtk`                    | 命令输出过滤和压缩，单一 Rust 二进制，零依赖，<10ms 开销。              | [Link](https://github.com/rtk-ai/rtk)                      |
-| `CodeGraph`              | 把代码库解析成结构化图谱，让 AI 不用反复扫描文件，大幅减少 Token 消耗。 | [Link](https://github.com/colbymchenry/codegraph)          |
-| `OpenSpec`               | Spec-driven development (SDD) for AI coding assistants.                 | [Link](https://github.com/Fission-AI/OpenSpec)             |
-| `everything-claude-code` | Anthropic 黑客马拉松获奖者的完整 Claude Code 配置集合。                 | [Link](https://github.com/affaan-m/everything-claude-code) |
-| `claude-hud`             | Claude Code 插件，实时显示上下文使用率、活跃 Agent 等。                 | [Link](https://github.com/jarrodwatts/claude-hud)          |
+| 名称                     | 描述                                                                                                                                                                                                    | 地址                                                       |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| `rtk`                    | 命令输出过滤和压缩，单一 Rust 二进制，零依赖，<10ms 开销。                                                                                                                                              | [Link](https://github.com/rtk-ai/rtk)                      |
+| `CodeGraph`              | 把代码库解析成结构化图谱，让 AI 不用反复扫描文件，大幅减少 Token 消耗。                                                                                                                                 | [Link](https://github.com/colbymchenry/codegraph)          |
+| `OpenSpec`               | Spec-driven development (SDD) for AI coding assistants.                                                                                                                                                 | [Link](https://github.com/Fission-AI/OpenSpec)             |
+| `everything-claude-code` | Anthropic 黑客马拉松获奖者的完整 Claude Code 配置集合。                                                                                                                                                 | [Link](https://github.com/affaan-m/everything-claude-code) |
+| `claude-hud`             | Claude Code 插件，实时显示上下文使用率、活跃 Agent 等。                                                                                                                                                 | [Link](https://github.com/jarrodwatts/claude-hud)          |
+| `garrytan/gstack`        | 开源的 Claude Code 专属 AI 工程工作流框架，核心是把单个 Claude Code 助手，变成一支覆盖全开发流程的虚拟软件团队，通过 23 个专业角色（Skill）+ 8 个工具，实现从产品构思到发布的全链路自动化与专业化协作。 | [Link](https://github.com/garrytan/gstack)                 |
 
 - CodeWhale: [Link](https://github.com/Hmbown/CodeWhale)
 

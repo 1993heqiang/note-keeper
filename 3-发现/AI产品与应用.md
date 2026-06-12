@@ -86,12 +86,13 @@
 
 ## 其他工具
 
-| 名称              | 描述                                               | 地址                                                   |
-| ----------------- | -------------------------------------------------- | ------------------------------------------------------ |
-| `next-ai-draw-io` | AI 驱动的图表创建工具。                            | [Link](https://github.com/DayuanJiang/next-ai-draw-io) |
-| `Zread`           | 智谱 AI 推出的 GitHub 项目阅读神器，一键生成文档。 | [Link](https://zread.ai/)                              |
-| `MiroFish`        | 简洁通用的群体智能引擎，预测万物。                 | [Link](https://github.com/666ghj/MiroFish)             |
-| `coai`            | 下一代 AIGC 一站式商业解决方案。                   | [Link](https://github.com/coaidev/coai)                |
-| `Vane`            | AI 驱动的问答引擎。                                | [Link](https://github.com/ItzCrazyKns/Vane)            |
-| `Scrapegraph-ai`  | 使用 LLM 的网络爬虫 Python 库。                    | [Link](https://github.com/VinciGit00/Scrapegraph-ai)   |
-| `deepface`        | 轻量级面部识别库。                                 | [Link](https://github.com/serengil/deepface)           |
+| 名称               | 描述                                               | 地址                                                     |
+| ------------------ | -------------------------------------------------- | -------------------------------------------------------- |
+| `next-ai-draw-io`  | AI 驱动的图表创建工具。                            | [Link](https://github.com/DayuanJiang/next-ai-draw-io)   |
+| `Zread`            | 智谱 AI 推出的 GitHub 项目阅读神器，一键生成文档。 | [Link](https://zread.ai/)                                |
+| `MiroFish`         | 简洁通用的群体智能引擎，预测万物。                 | [Link](https://github.com/666ghj/MiroFish)               |
+| `coai`             | 下一代 AIGC 一站式商业解决方案。                   | [Link](https://github.com/coaidev/coai)                  |
+| `Vane`             | AI 驱动的问答引擎。                                | [Link](https://github.com/ItzCrazyKns/Vane)              |
+| `Scrapegraph-ai`   | 使用 LLM 的网络爬虫 Python 库。                    | [Link](https://github.com/VinciGit00/Scrapegraph-ai)     |
+| `deepface`         | 轻量级面部识别库。                                 | [Link](https://github.com/serengil/deepface)             |
+| `awesome-llm-apps` | 精选 RAG、Agent、MCP、语音智能体等 LLM 应用集合。  | [Link](https://github.com/Shubhamsaboo/awesome-llm-apps) |
