@@ -17,6 +17,14 @@
 | `dive-into-llms`      | 《动手学大模型》系列编程实践教程。                          | [Link](https://github.com/Lordog/dive-into-llms)                |
 | 大模型全套资料        | 2026 年最新大模型全套资料（持续更新）。                     | [夸克网盘](https://pan.quark.cn/s/ef4f66a5ec0a#/list/share)     |
 
+### Datawhale
+
+> Datawhale 是一个专注于AI领域的开源组织，成立于2018年，我们汇聚了一群有开源精神和探索精神的理想主义者，致力于分享最前沿的AI知识，改善学习环境，我们的价值观是：for the learner，和学习者一起成长。
+
+- [Github](https://github.com/datawhalechina)
+
+- 知名课程: `happy-llm`、`hello-agents`
+
 ## 资料库
 
 | 名称                      | 描述                                             | 地址                                                     |

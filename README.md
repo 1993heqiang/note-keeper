@@ -68,28 +68,7 @@
 
 > 新发现随手扔进来，每月整理一次，分类到对应层级或丢弃。
 
-- [ ] pencil ai（pencil.dev）
-- [ ] cat-cafe-tutorials(github)
-- [ ] Linux 命令: `ip a`
-- [ ] Napkin.ai（文本转图像）
-- [ ] Gamma（AI PPT）
-- [ ] SenseNova-U1（做信息图）
-- [ ] [OpenMAIC — 清华大学开源多智能体互动课堂平台](https://openmaic.io/zh/)
-- [ ] OpenRelay
-- [ ] Datawhale
-- [ ] deepseek-tui
-- [ ] 飞书CLI
-- [ ] nonelinear.com / ofox.ai / 302.ai / OpenRouter
-- [ ] github学习: architect-awesome, advanced-java, clean-code-javascript
-- [ ] Scrapling
-- [ ] Tsec-Hackathon（腾讯云智能渗透黑客松）
-- [ ] Fission-AI/OpenSpec
-- [ ] ppt-master
-- [ ] CodeWhale
-- [ ] warpdotdev/warp
-- [ ] esengine/deepseek-reasonix
-- [ ] nousresearch/hermes-agent
-- [ ] claude-code-best — Claude Code 最佳实践配置合集
+- [ ] Hello World
 
 ---
 

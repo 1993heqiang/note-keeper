@@ -132,17 +132,18 @@
 
 ## 趣味 / 实用
 
-| 名称                 | 描述                                                   | 地址                                                         |
-| -------------------- | ------------------------------------------------------ | ------------------------------------------------------------ |
-| `Zread`              | 智谱 AI 推出的 GitHub 项目阅读神器，一键生成项目文档。 | [Link](https://zread.ai/)                                    |
-| `MiroFish`           | 简洁通用的群体智能引擎，预测万物。                     | [Link](https://github.com/666ghj/MiroFish)                   |
-| `sider`              | 浏览器侧边栏 AI 助手，边浏览边聊天、总结、翻译。       | [官网](https://sider.ai/)                                    |
-| `OpenBB`             | 面向分析师的 AI 金融数据平台。                         | [Link](https://github.com/OpenBB-finance/OpenBB)             |
-| `coai`               | 下一代 AIGC 一站式商业解决方案。                       | [Link](https://github.com/coaidev/coai)                      |
-| `Vane`               | AI 驱动的问答引擎。                                    | [Link](https://github.com/ItzCrazyKns/Vane)                  |
-| `PDFMathTranslate`   | 基于 AI 保留排版的 PDF 全文双语翻译。                  | [Link](https://github.com/PDFMathTranslate/PDFMathTranslate) |
-| `keep`               | AIOps 和告警管理平台。                                 | [Link](https://github.com/keephq/keep)                       |
-| `Scrapegraph-ai`     | 使用 LLM 的网络爬虫 Python 库。                        | [Link](https://github.com/VinciGit00/Scrapegraph-ai)         |
-| `screenshot-to-code` | 图片转代码。                                           | [Link](https://github.com/abi/screenshot-to-code)            |
-| `follow-builders`    | AI 驱动的信息聚合工具，追踪 AI 领域顶尖建造者。        | [Link](https://github.com/zarazhangrui/follow-builders)      |
-| `aihot`              | AI 行业一站式信息监控与创作工作台。                    | [官网](https://aihot.virxact.com/)                           |
+| 名称                 | 描述                                                                                  | 地址                                                         |
+| -------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| `Zread`              | 智谱 AI 推出的 GitHub 项目阅读神器，一键生成项目文档。                                | [Link](https://zread.ai/)                                    |
+| `MiroFish`           | 简洁通用的群体智能引擎，预测万物。                                                    | [Link](https://github.com/666ghj/MiroFish)                   |
+| `sider`              | 浏览器侧边栏 AI 助手，边浏览边聊天、总结、翻译。                                      | [官网](https://sider.ai/)                                    |
+| `OpenBB`             | 面向分析师的 AI 金融数据平台。                                                        | [Link](https://github.com/OpenBB-finance/OpenBB)             |
+| `coai`               | 下一代 AIGC 一站式商业解决方案。                                                      | [Link](https://github.com/coaidev/coai)                      |
+| `Vane`               | AI 驱动的问答引擎。                                                                   | [Link](https://github.com/ItzCrazyKns/Vane)                  |
+| `PDFMathTranslate`   | 基于 AI 保留排版的 PDF 全文双语翻译。                                                 | [Link](https://github.com/PDFMathTranslate/PDFMathTranslate) |
+| `keep`               | AIOps 和告警管理平台。                                                                | [Link](https://github.com/keephq/keep)                       |
+| `Scrapegraph-ai`     | 使用 LLM 的网络爬虫 Python 库。                                                       | [Link](https://github.com/VinciGit00/Scrapegraph-ai)         |
+| `screenshot-to-code` | 图片转代码。                                                                          | [Link](https://github.com/abi/screenshot-to-code)            |
+| `follow-builders`    | AI 驱动的信息聚合工具，追踪 AI 领域顶尖建造者。                                       | [Link](https://github.com/zarazhangrui/follow-builders)      |
+| `aihot`              | AI 行业一站式信息监控与创作工作台。                                                   | [官网](https://aihot.virxact.com/)                           |
+| `SenseNova-U1`       | SenseNova U1 是全新一代原生多模态模型系列，在单一架构中统一了多模态理解、推理与生成。 | [Link](https://github.com/OpenSenseNova/SenseNova-U1)        |
