@@ -1,57 +1,8 @@
-# AI 开发框架与工具
+# AI 开发技术栈
 
-> 面向开发者的 AI 框架、库、SDK 和开发工具。从模型训练到推理部署的全栈工具链。
+> 按技术栈分层——从应用层到底层 Infra，覆盖 AI 开发全链路。
 
-## 核心框架
-
-| 名称           | 描述                                                                        | 地址                                                |
-| -------------- | --------------------------------------------------------------------------- | --------------------------------------------------- |
-| `PyTorch`      | 开源 Python 机器学习库，基于 Torch，底层由 C++ 实现，广泛应用于 CV 和 NLP。 | [Link](https://github.com/pytorch/pytorch)          |
-| `TensorFlow`   | 开源软件库，用于各种感知和语言理解任务的机器学习。                          | [Link](https://github.com/tensorflow/tensorflow)    |
-| `JAX`          | Google 开发的用于变换数值函数的 Python 机器学习框架。                       | [Link](https://github.com/jax-ml/jax)               |
-| `Transformers` | Hugging Face 出品，为 Jax、PyTorch 和 TensorFlow 打造的先进 NLP 库。        | [Link](https://github.com/huggingface/transformers) |
-| `Keras`        | 用 Python 编写的高级神经网络 API，支持 TensorFlow、CNTK 或 Theano 后端。    | [Link](https://github.com/keras-team/keras)         |
-
-## 数据处理与科学计算
-
-| 名称           | 描述                                                              | 地址                                                 |
-| -------------- | ----------------------------------------------------------------- | ---------------------------------------------------- |
-| `NumPy`        | Python 扩展程序库，支持高阶大规模多维数组与矩阵运算。             | [Link](https://github.com/numpy/numpy)               |
-| `Pandas`       | 数据操纵和分析库，建于 NumPy 之上。                               | [Link](https://github.com/pandas-dev/pandas)         |
-| `SciPy`        | 开源 Python 算法库和数学工具包。                                  | [Link](https://github.com/scipy/scipy)               |
-| `Datasets`     | HuggingFace 提供的用于加载、处理、查询数据集的库。                | [Link](https://github.com/huggingface/datasets)      |
-| `scikit-learn` | 自由开源机器学习库，包含分类、回归、聚类算法。                    | [Link](https://github.com/scikit-learn/scikit-learn) |
-| `Pydantic`     | Python 数据验证与解析库，通过数据模型实现自动类型校验和格式转换。 | [Link](https://github.com/pydantic/pydantic)         |
-
-## 模型训练与微调
-
-| 名称                | 描述                                                      | 地址                                                      |
-| ------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
-| `Megatron-LM`       | NVIDIA 出品，大规模训练 Transformer 模型的 GPU 优化技术。 | [Link](https://github.com/NVIDIA/Megatron-LM)             |
-| `PyTorch Lightning` | 基于 PyTorch 的高级深度学习框架，简化研究流程。           | [Link](https://github.com/Lightning-AI/pytorch-lightning) |
-| `DeepSpeed`         | Microsoft 出品，深度学习优化库，简化分布式训练和推理。    | [Link](https://github.com/microsoft/DeepSpeed)            |
-| `FairScale`         | Meta 出品，用于高性能和大规模训练的 PyTorch 扩展。        | [Link](https://github.com/facebookresearch/fairscale)     |
-| `Optuna`            | 专为机器学习设计的自动超参数优化框架。                    | [Link](https://github.com/optuna/optuna)                  |
-| `LightGBM`          | Microsoft 出品，基于决策树算法的分布式梯度提升框架。      | [Link](https://github.com/microsoft/LightGBM)             |
-| `XGBoost`           | 可扩展的分布式梯度提升决策树机器学习库。                  | [Link](https://github.com/dmlc/xgboost)                   |
-| `Dask`              | Python 中并行和分布式计算的灵活开源库。                   | [Link](https://github.com/dask/dask)                      |
-| `unsloth-studio`    | 可视化微调工具，用最少显存、最短时间定制大模型。          | [官网](https://unsloth.ai/)                               |
-| `PEFT`              | HuggingFace 出品，参数高效微调技术。                      | [Link](https://github.com/huggingface/peft)               |
-| `TRL`               | HuggingFace 出品，用强化学习训练 Transformer 语言模型。   | [Link](https://github.com/huggingface/trl)                |
-| `LLaMA-Factory`     | 零代码命令行与 Web UI 轻松微调百余种大模型。              | [Link](https://github.com/hiyouga/LLaMA-Factory)          |
-
-## 模型推理
-
-| 名称            | 描述                                                                 | 地址                                              |
-| --------------- | -------------------------------------------------------------------- | ------------------------------------------------- |
-| `vLLM`          | 快速且易用的 LLM 推理和服务库，与 HuggingFace 无缝集成（GPU 加速）。 | [Link](https://github.com/vllm-project/vllm)      |
-| `SGLang`        | 面向 LLM 和多模态模型的高性能服务框架，低延迟高吞吐。                | [Link](https://github.com/sgl-project/sglang)     |
-| `llama.cpp`     | C/C++ LLM 推理引擎（Ollama、LM Studio、LocalAI 的内核）。            | [Link](https://github.com/ggml-org/llama.cpp)     |
-| `ONNX-TensorRT` | 解析 ONNX 模型以便使用 TensorRT 执行推理。                           | [Link](https://github.com/onnx/onnx-tensorrt)     |
-| `Accelerate`    | HuggingFace 出品，方便将 PyTorch 模型迁移到 GPU/TPU 等硬件。         | [Link](https://github.com/huggingface/accelerate) |
-| `Fara-7B`       | Microsoft 出品，专为计算机操作设计的轻量级多模态 CUA 模型。          | [Link](https://github.com/microsoft/fara)         |
-
-## Agent 开发
+## 应用层
 
 ### Agent 框架
 
@@ -103,9 +54,13 @@
 | `openrouter` | LLM 统一接口，找到最佳模型和价格。                 | [官网](https://openrouter.ai/)                |
 | `llmgateway` | 一个 API 调用所有 LLM，任意模型任意提供商。        | [官网](https://llmgateway.io/)                |
 
-## AI 编码工具
+---
 
-> 辅助 AI 编码的工具和插件——上下文压缩、代码图谱、终端 Agent 等。Skills 生态见 [2-笔记/Skills与MCP生态](../2-笔记/Skills与MCP生态.md)。
+## 工具层
+
+> 横切各层的开发支撑工具。Skills 生态见 [2-笔记/Skills与MCP生态](../2-笔记/Skills与MCP生态.md)。
+
+### AI 编码工具
 
 | 名称                     | 描述                                                                    | 地址                                                       |
 | ------------------------ | ----------------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -131,8 +86,6 @@
 
   原汁原味 Claude Code 可运行、可构建、可调试版；生产级工程化，企业级可靠性；安全无毒，内存泄露修复。
 
-## 开发工具
-
 ### 可视化与演示
 
 | 名称         | 描述                                     | 地址                                             |
@@ -152,6 +105,73 @@
 
 | 名称          | 描述                                | 地址                                            |
 | ------------- | ----------------------------------- | ----------------------------------------------- |
-| `ZLUDA`       | 在 AMD GPU 上运行 CUDA。            | [Link](https://github.com/vosen/ZLUDA)          |
 | `supervision` | 计算机视觉工具库。                  | [Link](https://github.com/roboflow/supervision) |
 | `firecrawl`   | 网页转 LLM 结构化数据（商业产品）。 | [Link](https://github.com/mendableai/firecrawl) |
+
+---
+
+## 模型层
+
+### 模型微调
+
+| 名称             | 描述                                                    | 地址                                             |
+| ---------------- | ------------------------------------------------------- | ------------------------------------------------ |
+| `unsloth-studio` | 可视化微调工具，用最少显存、最短时间定制大模型。        | [官网](https://unsloth.ai/)                      |
+| `PEFT`           | HuggingFace 出品，参数高效微调技术。                    | [Link](https://github.com/huggingface/peft)      |
+| `TRL`            | HuggingFace 出品，用强化学习训练 Transformer 语言模型。 | [Link](https://github.com/huggingface/trl)       |
+| `LLaMA-Factory`  | 零代码命令行与 Web UI 轻松微调百余种大模型。            | [Link](https://github.com/hiyouga/LLaMA-Factory) |
+
+### 模型推理
+
+| 名称            | 描述                                                                 | 地址                                              |
+| --------------- | -------------------------------------------------------------------- | ------------------------------------------------- |
+| `vLLM`          | 快速且易用的 LLM 推理和服务库，与 HuggingFace 无缝集成（GPU 加速）。 | [Link](https://github.com/vllm-project/vllm)      |
+| `SGLang`        | 面向 LLM 和多模态模型的高性能服务框架，低延迟高吞吐。                | [Link](https://github.com/sgl-project/sglang)     |
+| `llama.cpp`     | C/C++ LLM 推理引擎（Ollama、LM Studio、LocalAI 的内核）。            | [Link](https://github.com/ggml-org/llama.cpp)     |
+| `ONNX-TensorRT` | 解析 ONNX 模型以便使用 TensorRT 执行推理。                           | [Link](https://github.com/onnx/onnx-tensorrt)     |
+| `Accelerate`    | HuggingFace 出品，方便将 PyTorch 模型迁移到 GPU/TPU 等硬件。         | [Link](https://github.com/huggingface/accelerate) |
+| `Fara-7B`       | Microsoft 出品，专为计算机操作设计的轻量级多模态 CUA 模型。          | [Link](https://github.com/microsoft/fara)         |
+
+---
+
+## AI Infra
+
+### 深度学习框架
+
+| 名称           | 描述                                                                        | 地址                                                |
+| -------------- | --------------------------------------------------------------------------- | --------------------------------------------------- |
+| `PyTorch`      | 开源 Python 机器学习库，基于 Torch，底层由 C++ 实现，广泛应用于 CV 和 NLP。 | [Link](https://github.com/pytorch/pytorch)          |
+| `TensorFlow`   | 开源软件库，用于各种感知和语言理解任务的机器学习。                          | [Link](https://github.com/tensorflow/tensorflow)    |
+| `JAX`          | Google 开发的用于变换数值函数的 Python 机器学习框架。                       | [Link](https://github.com/jax-ml/jax)               |
+| `Transformers` | Hugging Face 出品，为 Jax、PyTorch 和 TensorFlow 打造的先进 NLP 库。        | [Link](https://github.com/huggingface/transformers) |
+| `Keras`        | 用 Python 编写的高级神经网络 API，支持 TensorFlow、CNTK 或 Theano 后端。    | [Link](https://github.com/keras-team/keras)         |
+
+### 分布式训练
+
+| 名称                | 描述                                                      | 地址                                                      |
+| ------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
+| `Megatron-LM`       | NVIDIA 出品，大规模训练 Transformer 模型的 GPU 优化技术。 | [Link](https://github.com/NVIDIA/Megatron-LM)             |
+| `PyTorch Lightning` | 基于 PyTorch 的高级深度学习框架，简化研究流程。           | [Link](https://github.com/Lightning-AI/pytorch-lightning) |
+| `DeepSpeed`         | Microsoft 出品，深度学习优化库，简化分布式训练和推理。    | [Link](https://github.com/microsoft/DeepSpeed)            |
+| `FairScale`         | Meta 出品，用于高性能和大规模训练的 PyTorch 扩展。        | [Link](https://github.com/facebookresearch/fairscale)     |
+| `Optuna`            | 专为机器学习设计的自动超参数优化框架。                    | [Link](https://github.com/optuna/optuna)                  |
+| `LightGBM`          | Microsoft 出品，基于决策树算法的分布式梯度提升框架。      | [Link](https://github.com/microsoft/LightGBM)             |
+| `XGBoost`           | 可扩展的分布式梯度提升决策树机器学习库。                  | [Link](https://github.com/dmlc/xgboost)                   |
+| `Dask`              | Python 中并行和分布式计算的灵活开源库。                   | [Link](https://github.com/dask/dask)                      |
+
+### 数据处理
+
+| 名称           | 描述                                                              | 地址                                                 |
+| -------------- | ----------------------------------------------------------------- | ---------------------------------------------------- |
+| `NumPy`        | Python 扩展程序库，支持高阶大规模多维数组与矩阵运算。             | [Link](https://github.com/numpy/numpy)               |
+| `Pandas`       | 数据操纵和分析库，建于 NumPy 之上。                               | [Link](https://github.com/pandas-dev/pandas)         |
+| `SciPy`        | 开源 Python 算法库和数学工具包。                                  | [Link](https://github.com/scipy/scipy)               |
+| `Datasets`     | HuggingFace 提供的用于加载、处理、查询数据集的库。                | [Link](https://github.com/huggingface/datasets)      |
+| `scikit-learn` | 自由开源机器学习库，包含分类、回归、聚类算法。                    | [Link](https://github.com/scikit-learn/scikit-learn) |
+| `Pydantic`     | Python 数据验证与解析库，通过数据模型实现自动类型校验和格式转换。 | [Link](https://github.com/pydantic/pydantic)         |
+
+### 算子与加速
+
+| 名称    | 描述                     | 地址                                   |
+| ------- | ------------------------ | -------------------------------------- |
+| `ZLUDA` | 在 AMD GPU 上运行 CUDA。 | [Link](https://github.com/vosen/ZLUDA) |
