@@ -57,7 +57,6 @@
 | `MoneyPrinterTurbo` | 利用 AI 大模型一键生成短视频。 | [Link](https://github.com/harry0703/MoneyPrinterTurbo) |
 | `facefusion`        | 人脸操作/AI 换脸平台。         | [Link](https://github.com/facefusion/facefusion)       |
 | `HivisionIDPhotos`  | 轻量级 AI 证件照制作。         | [Link](https://github.com/Zeyi-Lin/HivisionIDPhotos)   |
-| `deepface`          | 轻量级面部识别库。             | [Link](https://github.com/serengil/deepface)           |
 
 ## 文档与数据
 
@@ -95,3 +94,4 @@
 | `coai`            | 下一代 AIGC 一站式商业解决方案。                   | [Link](https://github.com/coaidev/coai)                |
 | `Vane`            | AI 驱动的问答引擎。                                | [Link](https://github.com/ItzCrazyKns/Vane)            |
 | `Scrapegraph-ai`  | 使用 LLM 的网络爬虫 Python 库。                    | [Link](https://github.com/VinciGit00/Scrapegraph-ai)   |
+| `deepface`        | 轻量级面部识别库。                                 | [Link](https://github.com/serengil/deepface)           |

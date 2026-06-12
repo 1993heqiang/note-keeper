@@ -6,7 +6,6 @@
 
 | 名称           | 描述                                                | 地址                                               |
 | -------------- | --------------------------------------------------- | -------------------------------------------------- |
-| `matplotlib`   | 创建静态、动画和交互式可视化的综合库。              | [Link](https://github.com/matplotlib/matplotlib)   |
 | `Rich`         | 终端富文本和精美格式输出。                          | [Link](https://github.com/Textualize/rich)         |
 | `IPython`      | 增强的 Python 交互式解释器，Jupyter 内核。          | [Link](https://github.com/ipython)                 |
 | `Jupyter`      | 交互式计算，文档中直接运行代码。                    | [Link](https://github.com/jupyter)                 |
@@ -16,6 +15,8 @@
 | `Flask`        | 轻量级 Python Web 应用框架。                        | [Link](https://github.com/pallets/flask)           |
 | `FastAPI`      | 现代、高性能 Web 框架，基于 Starlette 和 Pydantic。 | [Link](https://fastapi.org.cn/)                    |
 | `MediaCrawler` | 自媒体平台爬虫（小红书、抖音等）。                  | [Link](https://github.com/NanmiCoder/MediaCrawler) |
+| `uv`           | Python 包管理器（Rust 实现，极速）。                | [Link](https://github.com/astral-sh/uv)            |
+| `manim`        | 数学动画引擎。                                      | [Link](https://github.com/ManimCommunity/manim)    |
 
 ## 学习
 
@@ -23,7 +24,6 @@
 | ------------------- | -------------------------------------- | ----------------------------------------------------- |
 | `30-Days-Of-Python` | 30 天学 Python。                       | [Link](https://github.com/Asabeneh/30-Days-Of-Python) |
 | `Awesome Python`    | 优秀 Python 框架、库、软件和资源列表。 | [Link](https://github.com/vinta/awesome-python)       |
-| `uv`                | Python 包管理器（Rust 实现，极速）。   | [Link](https://github.com/astral-sh/uv)               |
 
 ## 测试
 
