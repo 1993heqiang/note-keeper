@@ -1,10 +1,21 @@
-## Skills
+## 简介
 
-> Skills 是一组可复用的指令/提示词/工具组合，让 AI Agent 在特定领域表现更好。理论上不绑定特定 Agent，只要支持 Skill 协议即可加载。
+> Skills 是一组可复用的指令/提示词/工具组合，让 AI Agent 在特定领域表现更好。基于 [agentskills.io](https://agentskills.io) 开放标准（SKILL.md / AGENTS.md），理论上不绑定特定 Agent，Claude Code、Codex、Cursor、Copilot 等 30+ Agent 均可加载。
 
-### 按领域分类
+## 常用安装
 
-#### 元技能
+| 平台           | 原生安装                         | 通用安装 (`npx skills add`)        |
+| -------------- | -------------------------------- | ---------------------------------- |
+| Claude Code    | `/plugin marketplace add <repo>` | `npx skills add <repo> -a claude`  |
+| Codex CLI      | `$skill-installer <name>`        | `npx skills add <repo> -a codex`   |
+| Gemini CLI     | `gemini skills install <url>`    | `npx skills add <repo> -a gemini`  |
+| GitHub Copilot | `gh skill install <repo>`        | `npx skills add <repo> -a copilot` |
+
+> 更多平台详见：[Skill平台与工具](Skill平台与工具.md)
+
+## 领域分类
+
+### 元技能
 
 **skill-creator**
 
@@ -22,7 +33,7 @@
 - 安装：—
 - 地址：[Link](https://github.com/vercel-labs/skills/tree/main/skills/find-skills)
 
-#### 编码
+### 编码
 
 **Anthropic Skills**
 
@@ -72,7 +83,7 @@
 - 安装：—
 - 地址：[Link](https://github.com/forrestchang/andrej-karpathy-skills)
 
-#### 设计
+### 设计
 
 **canvas-design**
 
@@ -98,7 +109,7 @@
 - 安装：`/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill`
 - 地址：[Link](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 
-#### 角色
+### 角色
 
 **nuwa-skill**
 
@@ -124,7 +135,7 @@
 - 安装：`npx skills add K-Dense-AI/scientific-agent-skills`
 - 地址：[Link](https://github.com/K-Dense-AI/scientific-agent-skills)
 
-#### 营销
+### 营销
 
 **copywriting**
 
@@ -150,7 +161,7 @@
 - 安装：`npx skills add coreyhaines31/marketingskills`
 - 地址：[Link](https://github.com/coreyhaines31/marketingskills)
 
-#### 其他
+### 其他
 
 **browser-act-skill-forge**
 
@@ -170,25 +181,6 @@
 
 ---
 
-### 平台与市场
+## 更多资源
 
-> 便捷入口。安装示例以各平台文档为准。
-
-| 平台           | 描述                                                            | 安装示例                               |
-| -------------- | --------------------------------------------------------------- | -------------------------------------- |
-| `skills.sh`    | Vercel 官方 AI Skill 市场，最大的 Skills 分发平台之一。         | `npx skills add <发布者>/<技能包>`     |
-| `clawhub.ai`   | OpenClaw 生态 Skill 市场，适配 Claude Code / Codex / OpenClaw。 | 详见 [Link](https://clawhub.ai/)       |
-| `skillsmp.com` | 多平台聚合发现引擎，覆盖 Claude Code、Codex、ChatGPT 等。       | 浏览安装 [Link](https://skillsmp.com/) |
-| `skiload.com`  | 聚合 SkillHub、OpenClaw 索引及公开仓库，含 AI 审核评分。        | 浏览评估 [Link](https://skiload.com/)  |
-
----
-
-## MCP 生态
-
-> MCP（Model Context Protocol）是 Anthropic 推出的开放协议，让 AI 模型通过标准化接口连接外部工具和数据源。类似于 AI 的「USB 协议」。
-
-| 名称          | 描述                                             | 地址                                            |
-| ------------- | ------------------------------------------------ | ----------------------------------------------- |
-| `blender-mcp` | 通过 MCP 协议连接 Blender，AI 直接操控 3D 建模。 | [Link](https://github.com/ahujasid/blender-mcp) |
-
-> 更多 AI 编码工具和 Agent 框架见：[3-发现/AI开发技术栈.md](../3-发现/AI开发技术栈.md)
+> Skill 平台、聚合搜索引擎、安装工具等详见：[Skill平台与工具](Skill平台与工具.md)

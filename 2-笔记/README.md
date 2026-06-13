@@ -9,7 +9,8 @@
 | 文件                    | 说明                     |
 | ----------------------- | ------------------------ |
 | `ClaudeCode命令速查.md` | Claude Code CLI 命令参考 |
-| `Skills与MCP生态.md`    | Skills 和 MCP 生态追踪   |
+| `Skills生态.md`         | Skills 生态追踪          |
+| `MCP生态.md`            | MCP 生态追踪             |
 | `Git常用命令.md`        | Git 常用命令与多账号配置 |
 | `Linux常用命令.md`      | Linux 常用命令速查       |
 | `Docker脚本.md`         | 常用 Docker 运行脚本     |

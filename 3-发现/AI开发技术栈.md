@@ -58,7 +58,7 @@
 
 ## 工具层
 
-> 横切各层的开发支撑工具。Skills 生态见 [2-笔记/Skills与MCP生态](../2-笔记/Skills与MCP生态.md)。
+> 横切各层的开发支撑工具。Skills 生态见 [2-笔记/Skills生态](../2-笔记/Skills生态.md)。
 
 ### AI 编码工具
 
