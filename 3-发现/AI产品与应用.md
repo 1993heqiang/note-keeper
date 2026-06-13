@@ -75,14 +75,15 @@
 
 ## 垂直场景
 
-| 名称              | 描述                                        | 地址                                                    |
-| ----------------- | ------------------------------------------- | ------------------------------------------------------- |
-| `TradingAgents`   | 多智能体 LLM 金融交易框架。                 | [Link](https://github.com/tauricresearch/tradingagents) |
-| `QuantDinger`     | 私有化 AI 量化操作系统。                    | [Link](https://github.com/brokermr810/QuantDinger)      |
-| `OpenBB`          | 面向分析师的 AI 金融数据平台。              | [Link](https://github.com/OpenBB-finance/OpenBB)        |
-| `keep`            | AIOps 和告警管理平台。                      | [Link](https://github.com/keephq/keep)                  |
-| `follow-builders` | AI 驱动的信息聚合工具，追踪 AI 领域建造者。 | [Link](https://github.com/zarazhangrui/follow-builders) |
-| `aihot`           | AI 行业一站式信息监控与创作工作台。         | [官网](https://aihot.virxact.com/)                      |
+| 名称              | 描述                                                                              | 地址                                                    |
+| ----------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| `ai-hedge-fund`   | AI 驱动的多智能体投资决策系统，模拟多位投资大师协作生成投资建议，仅用于教育研究。 | [Link](https://github.com/virattt/ai-hedge-fund)        |
+| `TradingAgents`   | 多智能体 LLM 金融交易框架。                                                       | [Link](https://github.com/tauricresearch/tradingagents) |
+| `QuantDinger`     | 私有化 AI 量化操作系统。                                                          | [Link](https://github.com/brokermr810/QuantDinger)      |
+| `OpenBB`          | 面向分析师的 AI 金融数据平台。                                                    | [Link](https://github.com/OpenBB-finance/OpenBB)        |
+| `keep`            | AIOps 和告警管理平台。                                                            | [Link](https://github.com/keephq/keep)                  |
+| `follow-builders` | AI 驱动的信息聚合工具，追踪 AI 领域建造者。                                       | [Link](https://github.com/zarazhangrui/follow-builders) |
+| `aihot`           | AI 行业一站式信息监控与创作工作台。                                               | [官网](https://aihot.virxact.com/)                      |
 
 ## 其他工具
 

@@ -33,6 +33,22 @@
 - 安装：—
 - 地址：[Link](https://github.com/vercel-labs/skills/tree/main/skills/find-skills)
 
+**Darwin Skill**
+
+> 可让 Skill 自我进化的系统，通过评估→优化→测试→保留/回滚实现持续迭代。
+
+- 类型：`独立` 来源：`独立仓库` 适配：`通用`
+- 安装：—
+- 地址：[Link](https://github.com/alchaincyf/darwin-skill)
+
+**ralph-loop**
+
+> 自动迭代优化循环插件，让 AI 持续自我修正、完善代码与方案直到达标。
+
+- 类型：`独立` 来源：`anthropics 官方` 适配：`Claude Code`
+- 安装：—
+- 地址：[Link](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop)
+
 ### 编码
 
 **Anthropic Skills**
@@ -83,6 +99,54 @@
 - 安装：—
 - 地址：[Link](https://github.com/forrestchang/andrej-karpathy-skills)
 
+**planning-with-files**
+
+> 基于项目文件结构进行结构化规划，自动生成任务清单、执行步骤与开发路线。
+
+- 类型：`独立` 来源：`独立仓库` 适配：`Claude Code`
+- 安装：—
+- 地址：[Link](https://github.com/othmanadi/planning-with-files)
+
+**code-review**
+
+> Anthropic 官方代码审查插件，自动检查代码规范、潜在 Bug、性能与安全问题。
+
+- 类型：`独立` 来源：`anthropics 官方` 适配：`Claude Code`
+- 安装：—
+- 地址：[Link](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review)
+
+**code-simplifier**
+
+> 官方代码简化工具，重构冗余代码，提升可读性、简洁性与可维护性。
+
+- 类型：`独立` 来源：`anthropics 官方` 适配：`Claude Code`
+- 安装：—
+- 地址：[Link](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier)
+
+**webapp-testing**
+
+> Web 应用自动化测试技能，生成测试用例、执行流程检查与兼容性验证。
+
+- 类型：`独立` 来源：`anthropics/skills` 适配：`Claude Code` `Codex`
+- 安装：—
+- 地址：[Link](https://github.com/anthropics/skills/tree/main/skills/webapp-testing)
+
+**mcp-builder**
+
+> MCP（模型上下文协议）快速构建工具，用于创建、调试和部署自定义模型插件。
+
+- 类型：`独立` 来源：`anthropics/skills` 适配：`Claude Code` `Codex`
+- 安装：—
+- 地址：[Link](https://github.com/anthropics/skills/tree/main/skills/mcp-builder)
+
+**Systematic Debugging**
+
+> 系统化调试技能，按流程定位错误根源、分析日志、给出可复现修复方案。
+
+- 类型：`独立` 来源：`obra/superpowers` 适配：`Claude Code`
+- 安装：—
+- 地址：[Link](https://github.com/obra/superpowers/tree/main/skills/systematic-debugging)
+
 ### 设计
 
 **canvas-design**
@@ -108,6 +172,22 @@
 - 类型：`合集` 来源：`独立仓库` 适配：`Claude Code`
 - 安装：`/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill`
 - 地址：[Link](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+
+**Taste Skill**
+
+> 提升 AI 输出审美与风格，避免生成平庸、通用化、乏味的内容。
+
+- 类型：`独立` 来源：`独立仓库` 适配：`通用`
+- 安装：—
+- 地址：[Link](https://github.com/leonxlnx/taste-skill)
+
+**Impeccable**
+
+> 强化 AI 的设计语言能力，让代码、界面、文案更具设计感与专业度。
+
+- 类型：`独立` 来源：`独立仓库` 适配：`通用`
+- 安装：—
+- 地址：[Link](https://github.com/pbakaus/impeccable)
 
 ### 角色
 
@@ -161,6 +241,16 @@
 - 安装：`npx skills add coreyhaines31/marketingskills`
 - 地址：[Link](https://github.com/coreyhaines31/marketingskills)
 
+### 写作
+
+**Humanizer-zh**
+
+> 中文 AI 文本去痕迹工具，将 AI 生成内容润色得更自然、更贴近人类真实表达。
+
+- 类型：`独立` 来源：`独立仓库` 适配：`通用`
+- 安装：—
+- 地址：[Link](https://github.com/op7418/Humanizer-zh)
+
 ### 其他
 
 **browser-act-skill-forge**
@@ -178,6 +268,14 @@
 - 类型：`合集` 来源：`独立仓库` 适配：`Claude Code`
 - 安装：`/plugin marketplace add AgricIDaniel/claude-seo`
 - 地址：[Link](https://github.com/AgricIDaniel/claude-seo)
+
+**AnySearch Skill**
+
+> 为 AI Agent 提供统一的实时搜索引擎能力，支持多源聚合检索。
+
+- 类型：`独立` 来源：`独立仓库` 适配：`通用`
+- 安装：—
+- 地址：[Link](https://github.com/anysearch-ai/anysearch-skill)
 
 ---
 

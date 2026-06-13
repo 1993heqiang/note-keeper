@@ -6,17 +6,20 @@
 
 ### Agent 框架
 
-| 名称                | 描述                                                                       | 地址                                                         |
-| ------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| `CrewAI`            | AI Agent 调度框架（多 Agent 协作）。                                       | [Link](https://github.com/crewAIInc/crewAI)                  |
-| `OpenHands`         | AI 开发平台：软件开发 Agent。                                              | [Link](https://github.com/All-Hands-AI/OpenHands)            |
-| `agno`              | 构建 multi-modal Agent 的轻量化库。                                        | [Link](https://github.com/agno-agi/agno)                     |
-| `pydantic-ai`       | 生成级 AI 应用开发框架。                                                   | [Link](https://github.com/pydantic/pydantic-ai)              |
-| `agency-agents`     | 将真实企业专业岗位打包成可直接调用的 AI 角色。                             | [Link](https://github.com/msitarzewski/agency-agents)        |
-| `CLI-Anything`      | 让所有软件都能被 Agent 驱动。                                              | [Link](https://github.com/HKUDS/CLI-Anything)                |
-| `oh-my-openagent`   | 运行在 OpenCode 之上的多智能体编排框架，自动拆任务、选模型、并行执行。     | [Link](https://github.com/code-yeongyu/oh-my-openagent)      |
-| `Project N.O.M.A.D` | 开源、离线优先、Docker 容器化的本地知识/AI 服务器。                        | [Link](https://github.com/Crosstalk-Solutions/project-nomad) |
-| `pi-mono`           | AI Agent 工具包：coding agent CLI、统一 LLM API、TUI 等（OpenClaw 核心）。 | [Link](https://github.com/earendil-works/pi)                 |
+| 名称                | 描述                                                                        | 地址                                                         |
+| ------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| `agent-reach`       | 一键为 AI Agent 接入全网能力，支持主流平台搜索/读取/解析，零 API 费用。     | [Link](https://github.com/Panniantong/agent-reach)           |
+| `agency-agents`     | 将真实企业专业岗位打包成可直接调用的 AI 角色。                              | [Link](https://github.com/msitarzewski/agency-agents)        |
+| `agno`              | 构建 multi-modal Agent 的轻量化库。                                         | [Link](https://github.com/agno-agi/agno)                     |
+| `CLI-Anything`      | 让所有软件都能被 Agent 驱动。                                               | [Link](https://github.com/HKUDS/CLI-Anything)                |
+| `CrewAI`            | AI Agent 调度框架（多 Agent 协作）。                                        | [Link](https://github.com/crewAIInc/crewAI)                  |
+| `genericagent`      | 极简可自进化的自主 Agent 框架，~3K 行代码，9 原子工具 + 100 行 Agent Loop。 | [Link](https://github.com/lsdefine/genericagent)             |
+| `oh-my-openagent`   | 运行在 OpenCode 之上的多智能体编排框架，自动拆任务、选模型、并行执行。      | [Link](https://github.com/code-yeongyu/oh-my-openagent)      |
+| `OpenHands`         | AI 开发平台：软件开发 Agent。                                               | [Link](https://github.com/All-Hands-AI/OpenHands)            |
+| `page-agent`        | 纯 JS 实现的网页内 GUI Agent，自然语言操作 Web 应用，无需后端或插件。       | [Link](https://github.com/alibaba/page-agent)                |
+| `pi-mono`           | AI Agent 工具包：coding agent CLI、统一 LLM API、TUI 等（OpenClaw 核心）。  | [Link](https://github.com/earendil-works/pi)                 |
+| `Project N.O.M.A.D` | 开源、离线优先、Docker 容器化的本地知识/AI 服务器。                         | [Link](https://github.com/Crosstalk-Solutions/project-nomad) |
+| `pydantic-ai`       | 生成级 AI 应用开发框架。                                                    | [Link](https://github.com/pydantic/pydantic-ai)              |
 
 #### Hermes Agent
 
@@ -47,12 +50,13 @@
 
 ### API 网关
 
-| 名称         | 描述                                               | 地址                                          |
-| ------------ | -------------------------------------------------- | --------------------------------------------- |
-| `gateway`    | Portkey AI 网关：通过统一 API 链接多个大语言模型。 | [Link](https://github.com/Portkey-AI/gateway) |
-| `aisuite`    | Andrew Ng 出品，为多平台 LLM 提供统一调用接口。    | [Link](https://github.com/andrewyng/aisuite)  |
-| `openrouter` | LLM 统一接口，找到最佳模型和价格。                 | [官网](https://openrouter.ai/)                |
-| `llmgateway` | 一个 API 调用所有 LLM，任意模型任意提供商。        | [官网](https://llmgateway.io/)                |
+| 名称         | 描述                                                                             | 地址                                                |
+| ------------ | -------------------------------------------------------------------------------- | --------------------------------------------------- |
+| `gateway`    | Portkey AI 网关：通过统一 API 链接多个大语言模型。                               | [Link](https://github.com/Portkey-AI/gateway)       |
+| `aisuite`    | Andrew Ng 出品，为多平台 LLM 提供统一调用接口。                                  | [Link](https://github.com/andrewyng/aisuite)        |
+| `freellmapi` | 免费 LLM 聚合代理，整合 16 家厂商免费额度，~17 亿 Token/月，自动路由与故障转移。 | [Link](https://github.com/tashfeenahmed/freellmapi) |
+| `openrouter` | LLM 统一接口，找到最佳模型和价格。                                               | [官网](https://openrouter.ai/)                      |
+| `llmgateway` | 一个 API 调用所有 LLM，任意模型任意提供商。                                      | [官网](https://llmgateway.io/)                      |
 
 ---
 
@@ -68,6 +72,7 @@
 | `CodeGraph`              | 把代码库解析成结构化图谱，让 AI 不用反复扫描文件，大幅减少 Token 消耗。                                                                                                                                 | [Link](https://github.com/colbymchenry/codegraph)          |
 | `OpenSpec`               | Spec-driven development (SDD) for AI coding assistants.                                                                                                                                                 | [Link](https://github.com/Fission-AI/OpenSpec)             |
 | `everything-claude-code` | Anthropic 黑客马拉松获奖者的完整 Claude Code 配置集合。                                                                                                                                                 | [Link](https://github.com/affaan-m/everything-claude-code) |
+| `free-claude-code`       | 本地 Claude Code 代理服务，基于 FastAPI 模拟 Anthropic API，转发至免费/低价/本地模型，无需 API Key。                                                                                                    | [Link](https://github.com/Alishahryar1/free-claude-code)   |
 | `claude-hud`             | Claude Code 插件，实时显示上下文使用率、活跃 Agent 等。                                                                                                                                                 | [Link](https://github.com/jarrodwatts/claude-hud)          |
 | `garrytan/gstack`        | 开源的 Claude Code 专属 AI 工程工作流框架，核心是把单个 Claude Code 助手，变成一支覆盖全开发流程的虚拟软件团队，通过 23 个专业角色（Skill）+ 8 个工具，实现从产品构思到发布的全链路自动化与专业化协作。 | [Link](https://github.com/garrytan/gstack)                 |
 

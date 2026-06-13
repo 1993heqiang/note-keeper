@@ -2,20 +2,24 @@
 
 > GitHub 上的 Skill 仓库。
 
-| 名称                                | 描述                                             | 地址                                                         |
-| ----------------------------------- | ------------------------------------------------ | ------------------------------------------------------------ |
-| `anthropics/skills`                 | Anthropic 官方 Skill 仓库，源头。                | [Link](https://github.com/anthropics/skills)                 |
-| `vercel-labs/agent-skills`          | Vercel 官方，skills.sh 本体。                    | [Link](https://github.com/vercel-labs/agent-skills)          |
-| `openclaw/clawhub`                  | OpenClaw 官方，clawhub.ai 本体。                 | [Link](https://github.com/openclaw/clawhub)                  |
-| `obra/superpowers`                  | 可组合 Skills 与硬约束，顶流。                   | [Link](https://github.com/obra/superpowers)                  |
-| `garrytan/gstack`                   | YC CEO 的 Skill 合集。                           | [Link](https://github.com/garrytan/gstack)                   |
-| `AgricIDaniel/claude-seo`           | SEO 工具包。                                     | [Link](https://github.com/AgriciDaniel/claude-seo)           |
-| `affaan-m/everything-claude-code`   | Claude Code 全配置合集。                         | [Link](https://github.com/affaan-m/everything-claude-code)   |
-| `hesreallyhim/awesome-claude-code`  | 最全生态索引，含 Skills、Hooks、Slash Commands。 | [Link](https://github.com/hesreallyhim/awesome-claude-code)  |
-| `ComposioHQ/awesome-claude-skills`  | 精选 Skill 索引，1000+。                         | [Link](https://github.com/ComposioHQ/awesome-claude-skills)  |
-| `travisvn/awesome-claude-skills`    | 社区精选 Skill 索引。                            | [Link](https://github.com/travisvn/awesome-claude-skills)    |
-| `VoltAgent/awesome-agent-skills`    | 官方团队出品的 Agent Skills 索引。               | [Link](https://github.com/VoltAgent/awesome-agent-skills)    |
-| `Chat2AnyLLM/awesome-claude-skills` | 26000+ 大规模索引。                              | [Link](https://github.com/Chat2AnyLLM/awesome-claude-skills) |
+| 名称                                                  | 描述                                               | 地址                                                                           |
+| ----------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------ |
+| `anthropics/skills`                                   | Anthropic 官方 Skill 仓库，源头。                  | [Link](https://github.com/anthropics/skills)                                   |
+| `vercel-labs/agent-skills`                            | Vercel 官方，skills.sh 本体。                      | [Link](https://github.com/vercel-labs/agent-skills)                            |
+| `openclaw/clawhub`                                    | OpenClaw 官方，clawhub.ai 本体。                   | [Link](https://github.com/openclaw/clawhub)                                    |
+| `obra/superpowers`                                    | 可组合 Skills 与硬约束，顶流。                     | [Link](https://github.com/obra/superpowers)                                    |
+| `garrytan/gstack`                                     | YC CEO 的 Skill 合集。                             | [Link](https://github.com/garrytan/gstack)                                     |
+| `AgricIDaniel/claude-seo`                             | SEO 工具包。                                       | [Link](https://github.com/AgriciDaniel/claude-seo)                             |
+| `affaan-m/everything-claude-code`                     | Claude Code 全配置合集。                           | [Link](https://github.com/affaan-m/everything-claude-code)                     |
+| `hesreallyhim/awesome-claude-code`                    | 最全生态索引，含 Skills、Hooks、Slash Commands。   | [Link](https://github.com/hesreallyhim/awesome-claude-code)                    |
+| `ComposioHQ/awesome-claude-skills`                    | 精选 Skill 索引，1000+。                           | [Link](https://github.com/ComposioHQ/awesome-claude-skills)                    |
+| `travisvn/awesome-claude-skills`                      | 社区精选 Skill 索引。                              | [Link](https://github.com/travisvn/awesome-claude-skills)                      |
+| `VoltAgent/awesome-agent-skills`                      | 官方团队出品的 Agent Skills 索引。                 | [Link](https://github.com/VoltAgent/awesome-agent-skills)                      |
+| `Chat2AnyLLM/awesome-claude-skills`                   | 26000+ 大规模索引。                                | [Link](https://github.com/Chat2AnyLLM/awesome-claude-skills)                   |
+| `antfu/skills`                                        | Anthony Fu 精选维护的 AI Agent 技能库。            | [Link](https://github.com/antfu/skills)                                        |
+| `MiniMax-AI/skills`                                   | 面向 AI 编程工具的工程化技能库，覆盖全栈、移动端。 | [Link](https://github.com/MiniMax-AI/skills)                                   |
+| `SuperClaude-Org/SuperClaude_Framework`               | 将 Claude Code 扩展为结构化开发平台。              | [Link](https://github.com/SuperClaude-Org/SuperClaude_Framework)               |
+| `muratcankoylan/agent-skills-for-context-engineering` | 专注上下文工程的技能集合，优化对话管理与长期记忆。 | [Link](https://github.com/muratcankoylan/agent-skills-for-context-engineering) |
 
 ---
 

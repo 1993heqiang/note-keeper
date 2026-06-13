@@ -4,26 +4,28 @@
 
 ## 知识学习
 
-| 名称                  | 描述                                                        | 地址                                                            |
-| --------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
-| `happy-llm`           | Datawhale 出品，从零开始构建大模型，深入理解 LLM 核心原理。 | [Link](https://github.com/datawhalechina/happy-llm)             |
-| `hello-agents`        | Datawhale 出品，从零开始构建智能体的原理与实践教程。        | [Link](https://github.com/datawhalechina/hello-agents)          |
-| `AIInfra`             | AI 基础设施全栈知识，从底层芯片到上层软件。                 | [Link](https://github.com/Infrasys-AI/AIInfra)                  |
-| `Learn Claude Code`   | 从 0 到 1 构建 nano Claude Code-like agent。                | [Link](https://github.com/shareAI-lab/learn-claude-code)        |
-| `AgentLearning`       | AI Agent 学习计划。                                         | [Link](https://github.com/nchyj/AgentLearning)                  |
-| `aliyun_acp_learning` | 阿里云大模型工程师认证。                                    | [Link](https://github.com/AlibabaCloudDocs/aliyun_acp_learning) |
-| `llm-course`          | LLM 课程，含路线图和 Colab notebooks。                      | [Link](https://github.com/mlabonne/llm-course)                  |
-| `ai-agent-learning`   | 使用 OpenAI Java SDK 从零构建 AI Agent — 14 节渐进式课程。  | [Link](https://github.com/wukangxin/ai-agent-learning)          |
-| `dive-into-llms`      | 《动手学大模型》系列编程实践教程。                          | [Link](https://github.com/Lordog/dive-into-llms)                |
-| 大模型全套资料        | 2026 年最新大模型全套资料（持续更新）。                     | [夸克网盘](https://pan.quark.cn/s/ef4f66a5ec0a#/list/share)     |
+| 名称                  | 描述                                                       | 地址                                                            |
+| --------------------- | ---------------------------------------------------------- | --------------------------------------------------------------- |
+| `AIInfra`             | AI 基础设施全栈知识，从底层芯片到上层软件。                | [Link](https://github.com/Infrasys-AI/AIInfra)                  |
+| `Learn Claude Code`   | 从 0 到 1 构建 nano Claude Code-like agent。               | [Link](https://github.com/shareAI-lab/learn-claude-code)        |
+| `AgentLearning`       | AI Agent 学习计划。                                        | [Link](https://github.com/nchyj/AgentLearning)                  |
+| `aliyun_acp_learning` | 阿里云大模型工程师认证。                                   | [Link](https://github.com/AlibabaCloudDocs/aliyun_acp_learning) |
+| `llm-course`          | LLM 课程，含路线图和 Colab notebooks。                     | [Link](https://github.com/mlabonne/llm-course)                  |
+| `ai-agent-learning`   | 使用 OpenAI Java SDK 从零构建 AI Agent — 14 节渐进式课程。 | [Link](https://github.com/wukangxin/ai-agent-learning)          |
+| `dive-into-llms`      | 《动手学大模型》系列编程实践教程。                         | [Link](https://github.com/Lordog/dive-into-llms)                |
+| 大模型全套资料        | 2026 年最新大模型全套资料（持续更新）。                    | [夸克网盘](https://pan.quark.cn/s/ef4f66a5ec0a#/list/share)     |
 
 ### Datawhale
 
-> Datawhale 是一个专注于AI领域的开源组织，成立于2018年，我们汇聚了一群有开源精神和探索精神的理想主义者，致力于分享最前沿的AI知识，改善学习环境，我们的价值观是：for the learner，和学习者一起成长。
+> Datawhale 是一个专注于AI领域的开源组织，成立于2018年，我们汇聚了一群有开源精神和探索精神的理想主义者，致力于分享最前沿的AI知识，改善学习环境，我们的价值观是：for the learner，和学习者一起成长。[Github主页](https://github.com/datawhalechina)
 
-- [Github](https://github.com/datawhalechina)
-
-- 知名课程: `happy-llm`、`hello-agents`
+| 名称                          | 描述                                                                                                                                                                          | 地址                                                                  |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| `happy-llm`                   | Datawhale 出品，从零开始构建大模型，深入理解 LLM 核心原理。                                                                                                                   | [Link](https://github.com/datawhalechina/happy-llm)                   |
+| `hello-agents`                | Datawhale 出品，从零开始构建智能体的原理与实践教程。                                                                                                                          | [Link](https://github.com/datawhalechina/hello-agents)                |
+| `agentic-ai`                  | 吴恩达的Agentic-ai系列课程, 从智能体的工作流、反思模式、工具调用和自主 Agent 构建等内容进行翻译、梳理与代码解读，帮助学习者系统掌握 Agentic AI 的核心方法与实践应用。         | [Link](https://github.com/datawhalechina/agentic-ai)                  |
+| `agent-skills-with-anthropic` | 吴恩达的agent-skills-with-anthropic系列课程, 围绕 Agent Skills 的概念、使用方式、代码实践与课程内容进行翻译和梳理，帮助学习者更系统地学习如何创建一个适合自己的Agent Skills。 | [Link](https://github.com/datawhalechina/agent-skills-with-anthropic) |
+| `ai-prompting-for-everyone`   | 吴恩达的AI Prompting for Everyone 课程. 门课程偏入门，重点不是讲复杂的模型原理，而是讲普通用户如何更好地向 AI 提问，如何把任务说清楚，如何让 AI 给出更符合需求的回答。        | [Link](https://github.com/datawhalechina/ai-prompting-for-everyone)   |
 
 ## 资料库
 
