@@ -4,35 +4,27 @@
 
 ## 编码助手
 
-| 名称                 | 描述                                           | 地址                                                                                     |
-| -------------------- | ---------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| `claude-code`        | Anthropic 出品的 Agentic 编码工具。            | [官网](https://claude.com/product/claude-code)                                           |
-| `Codex`              | OpenAI 出品的本地编码 Agent。                  | [Link](https://github.com/openai/codex)                                                  |
-| `opencode`           | 开源 Agent，帮助在终端、IDE 或桌面端编写代码。 | [官网](https://opencode.ai)                                                              |
-| `Cursor`             | Anysphere 实验室开发的 AI 驱动代码编辑器。     | [官网](https://www.cursor.com/)                                                          |
-| `Qoder`              | 阿里云新加坡团队推出的 Agentic 编码平台。      | [官网](https://qoder.com/)                                                               |
-| `iflow-cli`          | 阿里心流 AI 推出的终端 AI 助手。               | [Link](https://github.com/iflow-ai/iflow-cli)                                            |
-| `zcode`              | 智谱 AI 推出的轻量级 AI IDE。                  | [官网](https://zcode-ai.com/cn)                                                          |
-| `Cline`              | VS Code 插件，可使用终端和编辑器的 AI 助手。   | [Link](https://github.com/cline/cline)                                                   |
-| `Roo Code`           | VS Code 插件，AI 驱动自动化、多模型支持。      | [VS插件](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) |
-| `aider`              | 终端中的 AI 结对编程。                         | [Link](https://github.com/Aider-AI/aider)                                                |
-| `screenshot-to-code` | 图片/截图转代码。                              | [Link](https://github.com/abi/screenshot-to-code)                                        |
+| 名称          | 描述                                           | 地址                                           |
+| ------------- | ---------------------------------------------- | ---------------------------------------------- |
+| `claude-code` | Anthropic 出品的 Agentic 编码工具。            | [官网](https://claude.com/product/claude-code) |
+| `Codex`       | OpenAI 出品的本地编码 Agent。                  | [Link](https://github.com/openai/codex)        |
+| `opencode`    | 开源 Agent，帮助在终端、IDE 或桌面端编写代码。 | [官网](https://opencode.ai)                    |
+| `Cursor`      | Anysphere 实验室开发的 AI 驱动代码编辑器。     | [官网](https://www.cursor.com/)                |
+| `Qoder`       | 阿里云新加坡团队推出的 Agentic 编码平台。      | [官网](https://qoder.com/)                     |
+| `zcode`       | 智谱 AI 推出的轻量级 AI IDE。                  | [官网](https://zcode-ai.com/cn)                |
+| `Cline`       | VS Code 插件，可使用终端和编辑器的 AI 助手。   | [Link](https://github.com/cline/cline)         |
+| `aider`       | 终端中的 AI 结对编程。                         | [Link](https://github.com/Aider-AI/aider)      |
 
-## 聊天与本地客户端
+## 聊天客户端
 
-| 名称            | 描述                                               | 地址                                              |
-| --------------- | -------------------------------------------------- | ------------------------------------------------- |
-| `Lobe Chat`     | 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架。 | [Link](https://github.com/lobehub/lobe-chat)      |
-| `Open WebUI`    | 用户友好的 AI 界面，支持 Ollama、OpenAI API 等。   | [Link](https://github.com/open-webui/open-webui)  |
-| `Enchanted`     | iOS/macOS 的 Ollama 聊天客户端。                   | [Link](https://github.com/gluonfield/enchanted)   |
-| `Chatbox`       | 全平台 AI 模型桌面客户端。                         | [Link](https://github.com/Bin-Huang/chatbox)      |
-| `Page Assist`   | Chrome 插件，使用本地 AI 模型辅助浏览。            | [Link](https://github.com/n4ze3m/page-assist)     |
-| `cherry-studio` | 支持多个 LLM 服务商的桌面客户端。                  | [Link](https://github.com/CherryHQ/cherry-studio) |
-| `Jan`           | 本地 AI 助手（离线运行 LLM）。                     | [Link](https://github.com/janhq/jan)              |
-| `hyperlink`     | 设备端 AI 超级助手。                               | [Link](https://hyperlink.nexa.ai/)                |
-| `khoj`          | 整合本地文档与在线信息，打造「第二大脑」。         | [Link](https://github.com/khoj-ai/khoj)           |
-| `Tabbit`        | 美团光年之外团队推出的 AI 原生浏览器。             | [官网](https://www.tabbit-ai.com/)                |
-| `sider`         | 浏览器侧边栏 AI 助手，边浏览边聊天、总结、翻译。   | [官网](https://sider.ai/)                         |
+| 名称            | 描述                                             | 地址                                              |
+| --------------- | ------------------------------------------------ | ------------------------------------------------- |
+| `Open WebUI`    | 用户友好的 AI 界面，支持 Ollama、OpenAI API 等。 | [Link](https://github.com/open-webui/open-webui)  |
+| `Chatbox`       | 全平台 AI 模型桌面客户端。                       | [Link](https://github.com/Bin-Huang/chatbox)      |
+| `Page Assist`   | Chrome 插件，使用本地 AI 模型辅助浏览。          | [Link](https://github.com/n4ze3m/page-assist)     |
+| `cherry-studio` | 支持多个 LLM 服务商的桌面客户端。                | [Link](https://github.com/CherryHQ/cherry-studio) |
+| `Jan`           | 本地 AI 助手（离线运行 LLM）。                   | [Link](https://github.com/janhq/jan)              |
+| `sider`         | 浏览器侧边栏 AI 助手，边浏览边聊天、总结、翻译。 | [官网](https://sider.ai/)                         |
 
 更多参见：[Ollama Web & Desktop 集成](https://github.com/ollama/ollama?tab=readme-ov-file#web--desktop)
 
@@ -87,13 +79,12 @@
 
 ## 其他工具
 
-| 名称               | 描述                                               | 地址                                                     |
-| ------------------ | -------------------------------------------------- | -------------------------------------------------------- |
-| `next-ai-draw-io`  | AI 驱动的图表创建工具。                            | [Link](https://github.com/DayuanJiang/next-ai-draw-io)   |
-| `Zread`            | 智谱 AI 推出的 GitHub 项目阅读神器，一键生成文档。 | [Link](https://zread.ai/)                                |
-| `MiroFish`         | 简洁通用的群体智能引擎，预测万物。                 | [Link](https://github.com/666ghj/MiroFish)               |
-| `coai`             | 下一代 AIGC 一站式商业解决方案。                   | [Link](https://github.com/coaidev/coai)                  |
-| `Vane`             | AI 驱动的问答引擎。                                | [Link](https://github.com/ItzCrazyKns/Vane)              |
-| `Scrapegraph-ai`   | 使用 LLM 的网络爬虫 Python 库。                    | [Link](https://github.com/VinciGit00/Scrapegraph-ai)     |
-| `deepface`         | 轻量级面部识别库。                                 | [Link](https://github.com/serengil/deepface)             |
-| `awesome-llm-apps` | 精选 RAG、Agent、MCP、语音智能体等 LLM 应用集合。  | [Link](https://github.com/Shubhamsaboo/awesome-llm-apps) |
+| 名称                 | 描述                                               | 地址                                                   |
+| -------------------- | -------------------------------------------------- | ------------------------------------------------------ |
+| `next-ai-draw-io`    | AI驱动的图表创建工具 - 对话、绘制、可视化          | [Link](https://github.com/DayuanJiang/next-ai-draw-io) |
+| `Zread`              | 智谱 AI 推出的 GitHub 项目阅读神器，一键生成文档。 | [Link](https://zread.ai/)                              |
+| `MiroFish`           | 简洁通用的群体智能引擎，预测万物。                 | [Link](https://github.com/666ghj/MiroFish)             |
+| `coai`               | 下一代 AIGC 一站式商业解决方案。                   | [Link](https://github.com/coaidev/coai)                |
+| `Vane`               | AI 驱动的问答引擎。                                | [Link](https://github.com/ItzCrazyKns/Vane)            |
+| `deepface`           | 轻量级面部识别库。                                 | [Link](https://github.com/serengil/deepface)           |
+| `screenshot-to-code` | 图片/截图转代码。                                  | [Link](https://github.com/abi/screenshot-to-code)      |

@@ -12,6 +12,7 @@
 | `agency-agents`     | 将真实企业专业岗位打包成可直接调用的 AI 角色。                              | [Link](https://github.com/msitarzewski/agency-agents)        |
 | `agno`              | 构建 multi-modal Agent 的轻量化库。                                         | [Link](https://github.com/agno-agi/agno)                     |
 | `CLI-Anything`      | 让所有软件都能被 Agent 驱动。                                               | [Link](https://github.com/HKUDS/CLI-Anything)                |
+| `lobehub`           | LobeHub 帮你把专属 Agent 组织成 7×24 不打烊的高效队伍。                     | [Link](https://github.com/lobehub/lobehub)                   |
 | `CrewAI`            | AI Agent 调度框架（多 Agent 协作）。                                        | [Link](https://github.com/crewAIInc/crewAI)                  |
 | `genericagent`      | 极简可自进化的自主 Agent 框架，~3K 行代码，9 原子工具 + 100 行 Agent Loop。 | [Link](https://github.com/lsdefine/genericagent)             |
 | `oh-my-openagent`   | 运行在 OpenCode 之上的多智能体编排框架，自动拆任务、选模型、并行执行。      | [Link](https://github.com/code-yeongyu/oh-my-openagent)      |
@@ -19,7 +20,7 @@
 | `page-agent`        | 纯 JS 实现的网页内 GUI Agent，自然语言操作 Web 应用，无需后端或插件。       | [Link](https://github.com/alibaba/page-agent)                |
 | `pi-mono`           | AI Agent 工具包：coding agent CLI、统一 LLM API、TUI 等（OpenClaw 核心）。  | [Link](https://github.com/earendil-works/pi)                 |
 | `Project N.O.M.A.D` | 开源、离线优先、Docker 容器化的本地知识/AI 服务器。                         | [Link](https://github.com/Crosstalk-Solutions/project-nomad) |
-| `pydantic-ai`       | 生成级 AI 应用开发框架。                                                    | [Link](https://github.com/pydantic/pydantic-ai)              |
+| `pydantic-ai`       | Pydantic 的 AI Agent框架。                                                  | [Link](https://github.com/pydantic/pydantic-ai)              |
 
 #### Hermes Agent
 
@@ -66,15 +67,15 @@
 
 ### AI 编码工具
 
-| 名称                     | 描述                                                                                                                                                                                                    | 地址                                                       |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| `rtk`                    | 命令输出过滤和压缩，单一 Rust 二进制，零依赖，<10ms 开销。                                                                                                                                              | [Link](https://github.com/rtk-ai/rtk)                      |
-| `CodeGraph`              | 把代码库解析成结构化图谱，让 AI 不用反复扫描文件，大幅减少 Token 消耗。                                                                                                                                 | [Link](https://github.com/colbymchenry/codegraph)          |
-| `OpenSpec`               | Spec-driven development (SDD) for AI coding assistants.                                                                                                                                                 | [Link](https://github.com/Fission-AI/OpenSpec)             |
-| `everything-claude-code` | Anthropic 黑客马拉松获奖者的完整 Claude Code 配置集合。                                                                                                                                                 | [Link](https://github.com/affaan-m/everything-claude-code) |
-| `free-claude-code`       | 本地 Claude Code 代理服务，基于 FastAPI 模拟 Anthropic API，转发至免费/低价/本地模型，无需 API Key。                                                                                                    | [Link](https://github.com/Alishahryar1/free-claude-code)   |
-| `claude-hud`             | Claude Code 插件，实时显示上下文使用率、活跃 Agent 等。                                                                                                                                                 | [Link](https://github.com/jarrodwatts/claude-hud)          |
-| `garrytan/gstack`        | 开源的 Claude Code 专属 AI 工程工作流框架，核心是把单个 Claude Code 助手，变成一支覆盖全开发流程的虚拟软件团队，通过 23 个专业角色（Skill）+ 8 个工具，实现从产品构思到发布的全链路自动化与专业化协作。 | [Link](https://github.com/garrytan/gstack)                 |
+| 名称               | 描述                                                                                                                                                                                                    | 地址                                                     |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| `rtk`              | 命令输出过滤和压缩，单一 Rust 二进制，零依赖，<10ms 开销。                                                                                                                                              | [Link](https://github.com/rtk-ai/rtk)                    |
+| `CodeGraph`        | 把代码库解析成结构化图谱，让 AI 不用反复扫描文件，大幅减少 Token 消耗。                                                                                                                                 | [Link](https://github.com/colbymchenry/codegraph)        |
+| `OpenSpec`         | Spec-driven development (SDD) for AI coding assistants.                                                                                                                                                 | [Link](https://github.com/Fission-AI/OpenSpec)           |
+| `ECC`              | Anthropic 黑客马拉松获奖者的完整 Claude Code 配置集合。                                                                                                                                                 | [Link](https://github.com/affaan-m/ECC)                  |
+| `free-claude-code` | 本地 Claude Code 代理服务，基于 FastAPI 模拟 Anthropic API，转发至免费/低价/本地模型，无需 API Key。                                                                                                    | [Link](https://github.com/Alishahryar1/free-claude-code) |
+| `claude-hud`       | Claude Code 插件，实时显示上下文使用率、活跃 Agent 等。                                                                                                                                                 | [Link](https://github.com/jarrodwatts/claude-hud)        |
+| `garrytan/gstack`  | 开源的 Claude Code 专属 AI 工程工作流框架，核心是把单个 Claude Code 助手，变成一支覆盖全开发流程的虚拟软件团队，通过 23 个专业角色（Skill）+ 8 个工具，实现从产品构思到发布的全链路自动化与专业化协作。 | [Link](https://github.com/garrytan/gstack)               |
 
 - CodeWhale: [Link](https://github.com/Hmbown/CodeWhale)
 
@@ -168,14 +169,13 @@
 
 ### 数据处理
 
-| 名称           | 描述                                                              | 地址                                                 |
-| -------------- | ----------------------------------------------------------------- | ---------------------------------------------------- |
-| `NumPy`        | Python 扩展程序库，支持高阶大规模多维数组与矩阵运算。             | [Link](https://github.com/numpy/numpy)               |
-| `Pandas`       | 数据操纵和分析库，建于 NumPy 之上。                               | [Link](https://github.com/pandas-dev/pandas)         |
-| `SciPy`        | 开源 Python 算法库和数学工具包。                                  | [Link](https://github.com/scipy/scipy)               |
-| `Datasets`     | HuggingFace 提供的用于加载、处理、查询数据集的库。                | [Link](https://github.com/huggingface/datasets)      |
-| `scikit-learn` | 自由开源机器学习库，包含分类、回归、聚类算法。                    | [Link](https://github.com/scikit-learn/scikit-learn) |
-| `Pydantic`     | Python 数据验证与解析库，通过数据模型实现自动类型校验和格式转换。 | [Link](https://github.com/pydantic/pydantic)         |
+| 名称           | 描述                                                  | 地址                                                 |
+| -------------- | ----------------------------------------------------- | ---------------------------------------------------- |
+| `NumPy`        | Python 扩展程序库，支持高阶大规模多维数组与矩阵运算。 | [Link](https://github.com/numpy/numpy)               |
+| `Pandas`       | 数据操纵和分析库，建于 NumPy 之上。                   | [Link](https://github.com/pandas-dev/pandas)         |
+| `SciPy`        | 开源 Python 算法库和数学工具包。                      | [Link](https://github.com/scipy/scipy)               |
+| `Datasets`     | HuggingFace 提供的用于加载、处理、查询数据集的库。    | [Link](https://github.com/huggingface/datasets)      |
+| `scikit-learn` | 自由开源机器学习库，包含分类、回归、聚类算法。        | [Link](https://github.com/scikit-learn/scikit-learn) |
 
 ### 算子与加速
 
