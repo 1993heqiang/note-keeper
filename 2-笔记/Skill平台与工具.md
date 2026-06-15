@@ -10,7 +10,7 @@
 | `obra/superpowers`                                    | 可组合 Skills 与硬约束，顶流。                     | [Link](https://github.com/obra/superpowers)                                    |
 | `garrytan/gstack`                                     | YC CEO 的 Skill 合集。                             | [Link](https://github.com/garrytan/gstack)                                     |
 | `AgricIDaniel/claude-seo`                             | SEO 工具包。                                       | [Link](https://github.com/AgriciDaniel/claude-seo)                             |
-| `affaan-m/everything-claude-code`                     | Claude Code 全配置合集。                           | [Link](https://github.com/affaan-m/everything-claude-code)                     |
+| `affaan-m/ECC`                                        | Claude Code 全配置合集，黑客马拉松获奖者作品。     | [Link](https://github.com/affaan-m/ECC)                                        |
 | `hesreallyhim/awesome-claude-code`                    | 最全生态索引，含 Skills、Hooks、Slash Commands。   | [Link](https://github.com/hesreallyhim/awesome-claude-code)                    |
 | `ComposioHQ/awesome-claude-skills`                    | 精选 Skill 索引，1000+。                           | [Link](https://github.com/ComposioHQ/awesome-claude-skills)                    |
 | `travisvn/awesome-claude-skills`                      | 社区精选 Skill 索引。                              | [Link](https://github.com/travisvn/awesome-claude-skills)                      |

@@ -1,19 +1,6 @@
 # AI 产品与应用
 
-> AI 终端产品和应用工具——编码助手、内容生成、文档处理等。
-
-## 编码助手
-
-| 名称          | 描述                                           | 地址                                           |
-| ------------- | ---------------------------------------------- | ---------------------------------------------- |
-| `claude-code` | Anthropic 出品的 Agentic 编码工具。            | [官网](https://claude.com/product/claude-code) |
-| `Codex`       | OpenAI 出品的本地编码 Agent。                  | [Link](https://github.com/openai/codex)        |
-| `opencode`    | 开源 Agent，帮助在终端、IDE 或桌面端编写代码。 | [官网](https://opencode.ai)                    |
-| `Cursor`      | Anysphere 实验室开发的 AI 驱动代码编辑器。     | [官网](https://www.cursor.com/)                |
-| `Qoder`       | 阿里云新加坡团队推出的 Agentic 编码平台。      | [官网](https://qoder.com/)                     |
-| `zcode`       | 智谱 AI 推出的轻量级 AI IDE。                  | [官网](https://zcode-ai.com/cn)                |
-| `Cline`       | VS Code 插件，可使用终端和编辑器的 AI 助手。   | [Link](https://github.com/cline/cline)         |
-| `aider`       | 终端中的 AI 结对编程。                         | [Link](https://github.com/Aider-AI/aider)      |
+> AI 终端产品和应用工具——内容生成、文档处理等。
 
 ## 聊天客户端
 

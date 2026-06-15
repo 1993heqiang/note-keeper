@@ -6,21 +6,20 @@
 
 ### Agent 框架
 
-| 名称                | 描述                                                                        | 地址                                                         |
-| ------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| `agent-reach`       | 一键为 AI Agent 接入全网能力，支持主流平台搜索/读取/解析，零 API 费用。     | [Link](https://github.com/Panniantong/agent-reach)           |
-| `agency-agents`     | 将真实企业专业岗位打包成可直接调用的 AI 角色。                              | [Link](https://github.com/msitarzewski/agency-agents)        |
-| `agno`              | 构建 multi-modal Agent 的轻量化库。                                         | [Link](https://github.com/agno-agi/agno)                     |
-| `CLI-Anything`      | 让所有软件都能被 Agent 驱动。                                               | [Link](https://github.com/HKUDS/CLI-Anything)                |
-| `lobehub`           | LobeHub 帮你把专属 Agent 组织成 7×24 不打烊的高效队伍。                     | [Link](https://github.com/lobehub/lobehub)                   |
-| `CrewAI`            | AI Agent 调度框架（多 Agent 协作）。                                        | [Link](https://github.com/crewAIInc/crewAI)                  |
-| `genericagent`      | 极简可自进化的自主 Agent 框架，~3K 行代码，9 原子工具 + 100 行 Agent Loop。 | [Link](https://github.com/lsdefine/genericagent)             |
-| `oh-my-openagent`   | 运行在 OpenCode 之上的多智能体编排框架，自动拆任务、选模型、并行执行。      | [Link](https://github.com/code-yeongyu/oh-my-openagent)      |
-| `OpenHands`         | AI 开发平台：软件开发 Agent。                                               | [Link](https://github.com/All-Hands-AI/OpenHands)            |
-| `page-agent`        | 纯 JS 实现的网页内 GUI Agent，自然语言操作 Web 应用，无需后端或插件。       | [Link](https://github.com/alibaba/page-agent)                |
-| `pi-mono`           | AI Agent 工具包：coding agent CLI、统一 LLM API、TUI 等（OpenClaw 核心）。  | [Link](https://github.com/earendil-works/pi)                 |
-| `Project N.O.M.A.D` | 开源、离线优先、Docker 容器化的本地知识/AI 服务器。                         | [Link](https://github.com/Crosstalk-Solutions/project-nomad) |
-| `pydantic-ai`       | Pydantic 的 AI Agent框架。                                                  | [Link](https://github.com/pydantic/pydantic-ai)              |
+| 名称              | 描述                                                                        | 地址                                                    |
+| ----------------- | --------------------------------------------------------------------------- | ------------------------------------------------------- |
+| `agent-reach`     | 一键为 AI Agent 接入全网能力，支持主流平台搜索/读取/解析，零 API 费用。     | [Link](https://github.com/Panniantong/agent-reach)      |
+| `agency-agents`   | 将真实企业专业岗位打包成可直接调用的 AI 角色。                              | [Link](https://github.com/msitarzewski/agency-agents)   |
+| `agno`            | 构建、运行和管理Agent平台。                                                 | [Link](https://github.com/agno-agi/agno)                |
+| `CLI-Anything`    | 让所有软件都能被 Agent 驱动。                                               | [Link](https://github.com/HKUDS/CLI-Anything)           |
+| `lobehub`         | LobeHub 帮你把专属 Agent 组织成 7×24 不打烊的高效队伍。                     | [Link](https://github.com/lobehub/lobehub)              |
+| `CrewAI`          | AI Agent 调度框架（多 Agent 协作）。                                        | [Link](https://github.com/crewAIInc/crewAI)             |
+| `genericagent`    | 极简可自进化的自主 Agent 框架，~3K 行代码，9 原子工具 + 100 行 Agent Loop。 | [Link](https://github.com/lsdefine/genericagent)        |
+| `oh-my-openagent` | 运行在 OpenCode 之上的多智能体编排框架，自动拆任务、选模型、并行执行。      | [Link](https://github.com/code-yeongyu/oh-my-openagent) |
+| `OpenHands`       | AI 开发平台：软件开发 Agent。                                               | [Link](https://github.com/All-Hands-AI/OpenHands)       |
+| `page-agent`      | 纯 JS 实现的网页内 GUI Agent，自然语言操作 Web 应用，无需后端或插件。       | [Link](https://github.com/alibaba/page-agent)           |
+| `pi.dev`          | AI Agent 工具包：coding agent CLI、统一 LLM API、TUI 等（OpenClaw 核心）。  | [Link](https://github.com/earendil-works/pi)            |
+| `pydantic-ai`     | Pydantic 的 AI Agent框架。                                                  | [Link](https://github.com/pydantic/pydantic-ai)         |
 
 #### Hermes Agent
 
@@ -53,6 +52,7 @@
 
 | 名称         | 描述                                                                             | 地址                                                |
 | ------------ | -------------------------------------------------------------------------------- | --------------------------------------------------- |
+| `higress`    | Higress 是一款云原生 API 网关，内核基于 Istio 和 Envoy.                          | [Link](https://github.com/higress-group/higress)    |
 | `gateway`    | Portkey AI 网关：通过统一 API 链接多个大语言模型。                               | [Link](https://github.com/Portkey-AI/gateway)       |
 | `aisuite`    | Andrew Ng 出品，为多平台 LLM 提供统一调用接口。                                  | [Link](https://github.com/andrewyng/aisuite)        |
 | `freellmapi` | 免费 LLM 聚合代理，整合 16 家厂商免费额度，~17 亿 Token/月，自动路由与故障转移。 | [Link](https://github.com/tashfeenahmed/freellmapi) |
@@ -64,34 +64,6 @@
 ## 工具层
 
 > 横切各层的开发支撑工具。Skills 生态见 [2-笔记/Skills生态](../2-笔记/Skills生态.md)。
-
-### AI 编码工具
-
-| 名称               | 描述                                                                                                                                                                                                    | 地址                                                     |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| `rtk`              | 命令输出过滤和压缩，单一 Rust 二进制，零依赖，<10ms 开销。                                                                                                                                              | [Link](https://github.com/rtk-ai/rtk)                    |
-| `CodeGraph`        | 把代码库解析成结构化图谱，让 AI 不用反复扫描文件，大幅减少 Token 消耗。                                                                                                                                 | [Link](https://github.com/colbymchenry/codegraph)        |
-| `OpenSpec`         | Spec-driven development (SDD) for AI coding assistants.                                                                                                                                                 | [Link](https://github.com/Fission-AI/OpenSpec)           |
-| `ECC`              | Anthropic 黑客马拉松获奖者的完整 Claude Code 配置集合。                                                                                                                                                 | [Link](https://github.com/affaan-m/ECC)                  |
-| `free-claude-code` | 本地 Claude Code 代理服务，基于 FastAPI 模拟 Anthropic API，转发至免费/低价/本地模型，无需 API Key。                                                                                                    | [Link](https://github.com/Alishahryar1/free-claude-code) |
-| `claude-hud`       | Claude Code 插件，实时显示上下文使用率、活跃 Agent 等。                                                                                                                                                 | [Link](https://github.com/jarrodwatts/claude-hud)        |
-| `garrytan/gstack`  | 开源的 Claude Code 专属 AI 工程工作流框架，核心是把单个 Claude Code 助手，变成一支覆盖全开发流程的虚拟软件团队，通过 23 个专业角色（Skill）+ 8 个工具，实现从产品构思到发布的全链路自动化与专业化协作。 | [Link](https://github.com/garrytan/gstack)               |
-
-- CodeWhale: [Link](https://github.com/Hmbown/CodeWhale)
-
-  面向 DeepSeek V4 和开放模型的本地 Agent 运行框架：自我、权威、证据闭环。
-
-- Warp: [Link](https://github.com/warpdotdev/warp)
-
-  Warp 是一个基于终端的智能体开发环境。
-
-- DeepSeek-Reasonix: [Link](https://github.com/esengine/DeepSeek-Reasonix)
-
-  面向终端的 DeepSeek 原生 AI coding agent。
-
-- claude-code-best/claude-code: [Link](https://github.com/claude-code-best/claude-code)
-
-  原汁原味 Claude Code 可运行、可构建、可调试版；生产级工程化，企业级可靠性；安全无毒，内存泄露修复。
 
 ### 可视化与演示
 
@@ -110,10 +82,9 @@
 
 ### 其他
 
-| 名称          | 描述                                | 地址                                            |
-| ------------- | ----------------------------------- | ----------------------------------------------- |
-| `supervision` | 计算机视觉工具库。                  | [Link](https://github.com/roboflow/supervision) |
-| `firecrawl`   | 网页转 LLM 结构化数据（商业产品）。 | [Link](https://github.com/mendableai/firecrawl) |
+| 名称          | 描述               | 地址                                            |
+| ------------- | ------------------ | ----------------------------------------------- |
+| `supervision` | 计算机视觉工具库。 | [Link](https://github.com/roboflow/supervision) |
 
 ---
 
