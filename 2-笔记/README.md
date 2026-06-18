@@ -6,13 +6,13 @@
 
 ## 文件列表
 
-| 文件                    | 说明                     |
-| ----------------------- | ------------------------ |
-| `ClaudeCode命令速查.md` | Claude Code CLI 命令参考 |
-| `Skills生态.md`         | Skills 生态追踪          |
-| `MCP生态.md`            | MCP 生态追踪             |
-| `Git常用命令.md`        | Git 常用命令与多账号配置 |
-| `Linux常用命令.md`      | Linux 常用命令速查       |
-| `Docker脚本.md`         | 常用 Docker 运行脚本     |
-| `Python语法笔记.md`     | Python 官方教程学习笔记  |
-| `Java生态笔记.md`       | Java 常用库与组织整理    |
+| 文件                    | 说明                      |
+| ----------------------- | ------------------------- |
+| `ClaudeCode命令速查.md` | Claude Code CLI 命令参考  |
+| `Skills生态.md`         | Skills 生态追踪           |
+| `MCP生态.md`            | MCP 生态追踪              |
+| `Git常用命令.md`        | Git 常用命令与多账号配置  |
+| `Linux常用命令.md`      | Linux 常用命令速查        |
+| `Docker命令与脚本.md`   | Docker 常用命令与部署脚本 |
+| `Python语法笔记.md`     | Python 官方教程学习笔记   |
+| `Java生态笔记.md`       | Java 常用库与组织整理     |

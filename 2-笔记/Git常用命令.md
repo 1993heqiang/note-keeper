@@ -15,9 +15,16 @@
   git config --show-origin --get-regexp user
   ```
 
--
+- 为当前仓库配置访问令牌
 
-## 配置参数
+  ```bash
+  git config credential.helper store
+  git config credential.username "你的GitCode用户名"
+  # 首次拉代码时，密码输入刚才生成的PAT，Git会自动保存
+  git pull
+  ```
+
+- ## 配置参数
 
 ### core.autocrlf
 
