@@ -261,6 +261,14 @@
 - 安装：—
 - 地址：[Link](https://github.com/browser-act/skills)
 
+**claude-mem**
+
+> AI Agent 持久记忆系统，捕获工具调用记录并 AI 压缩，跨会话注入上下文，让 Agent 记住项目历史。
+
+- 类型：`独立` 来源：`独立仓库` 适配：`Claude Code` `OpenClaw` `Codex`
+- 安装：`/plugin marketplace add thedotmack/claude-mem`
+- 地址：[Link](https://github.com/thedotmack/claude-mem)
+
 **claude-seo**
 
 > 免费开源全能 SEO 工具包，覆盖关键词研究、内容优化、技术 SEO。

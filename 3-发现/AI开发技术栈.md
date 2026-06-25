@@ -35,18 +35,20 @@
 
 ### Agent 基础设施
 
-| 名称         | 描述                                  | 地址                                             |
-| ------------ | ------------------------------------- | ------------------------------------------------ |
-| `composio`   | AI Agent 的生产工具集。               | [Link](https://github.com/ComposioHQ/composio)   |
-| `mem0`       | AI Agent 的记忆层。                   | [Link](https://github.com/mem0ai/mem0)           |
-| `OpenViking` | AI 智能体的上下文数据库（字节跳动）。 | [Link](https://github.com/volcengine/OpenViking) |
+| 名称            | 描述                                                                       | 地址                                                 |
+| --------------- | -------------------------------------------------------------------------- | ---------------------------------------------------- |
+| `agent-browser` | AI Agent 的浏览器自动化 CLI，快照引用 + CDP 控制 Chrome，内置 MCP Server。 | [Link](https://github.com/vercel-labs/agent-browser) |
+| `composio`      | AI Agent 的生产工具集。                                                    | [Link](https://github.com/ComposioHQ/composio)       |
+| `mem0`          | AI Agent 的记忆层。                                                        | [Link](https://github.com/mem0ai/mem0)               |
+| `OpenViking`    | AI 智能体的上下文数据库（字节跳动）。                                      | [Link](https://github.com/volcengine/OpenViking)     |
 
 ### RAG
 
-| 名称       | 描述                                      | 地址                                          |
-| ---------- | ----------------------------------------- | --------------------------------------------- |
-| `RAGFlow`  | 基于深度文档理解构建的开源 RAG 引擎。     | [Link](https://github.com/infiniflow/ragflow) |
-| `graphrag` | Microsoft 出品，基于图的模块化 RAG 系统。 | [Link](https://github.com/microsoft/graphrag) |
+| 名称       | 描述                                                          | 地址                                          |
+| ---------- | ------------------------------------------------------------- | --------------------------------------------- |
+| `RAGFlow`  | 基于深度文档理解构建的开源 RAG 引擎。                         | [Link](https://github.com/infiniflow/ragflow) |
+| `graphrag` | Microsoft 出品，基于图的模块化 RAG 系统。                     | [Link](https://github.com/microsoft/graphrag) |
+| `zvec`     | 阿里通义出品，嵌入式向量数据库，RAG 检索底座 + Agent 记忆层。 | [Link](https://github.com/alibaba/zvec)       |
 
 ### API 网关
 

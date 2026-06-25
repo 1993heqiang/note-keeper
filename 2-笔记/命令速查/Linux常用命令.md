@@ -109,3 +109,18 @@ su - <user>
 # 以 root 执行命令
 sudo <command>
 ```
+
+## 文本编辑
+
+```shell
+# 终端文本编辑器
+nano <file>              # 打开/创建文件
+# Ctrl+O 保存  Ctrl+X  退出
+```
+
+# 高阶工具
+
+| 名称  | 描述                                        | 地址                                         |
+| ----- | ------------------------------------------- | -------------------------------------------- |
+| `eza` | 现代 `ls` 替代品，默认图标+颜色+Git 状态。  | [Link](https://github.com/eza-community/eza) |
+| `bat` | 现代 `cat` 替代品，语法高亮+行号+Git 集成。 | [Link](https://github.com/sharkdp/bat)       |
