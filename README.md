@@ -41,7 +41,7 @@
 | [Git常用命令](2-笔记/命令速查/Git常用命令.md)               | Git 常用命令与多账号配置  |
 | [Linux常用命令](2-笔记/命令速查/Linux常用命令.md)           | Linux 常用命令速查        |
 | [Docker命令与脚本](2-笔记/命令速查/Docker命令与脚本.md)     | Docker 常用命令与部署脚本 |
-| [Python学习](2-笔记/Python学习/Python语法笔记.md)           | Python 语法笔记与常用库   |
+| [Python学习](2-笔记/学习笔记/Python语法笔记.md)             | Python 语法笔记与常用库   |
 | [Java开发](2-笔记/开发/Java开发.md)                         | Java 常用库与组织整理     |
 
 ### 👀 3-发现

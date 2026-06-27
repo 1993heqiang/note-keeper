@@ -203,3 +203,117 @@ git config --show-origin user.name
         ├── <platform-a>/       # 平台 A 仓库（自动切换身份）
         └── <platform-b>/       # 平台 B 仓库（自动切换身份）
 ```
+
+---
+
+## Git LFS
+
+### 安装与初始化
+
+```bash
+# 安装 Git LFS（各平台包管理器）
+brew install git-lfs          # macOS
+apt install git-lfs           # Debian/Ubuntu
+yum install git-lfs           # CentOS/RHEL
+
+# 初始化（只需执行一次，全局生效）
+git lfs install
+```
+
+### 追踪/取消追踪大文件
+
+```bash
+# 追踪指定模式的文件
+git lfs track "*.psd"
+git lfs track "*.zip"
+git lfs track "*.so"
+git lfs track "*.dll"
+
+# 追踪单个文件
+git lfs track "path/to/large-file.bin"
+
+# 查看当前仓库的追踪规则
+git lfs track
+
+# 取消追踪
+git lfs untrack "*.psd"
+```
+
+> `.gitattributes` 会自动追加追踪规则，需要和代码一起提交。
+
+### 查看 LFS 文件状态
+
+```bash
+# 列出当前已用 LFS 管理的文件
+git lfs ls-files
+
+# 按文件大小排序
+git lfs ls-files --size
+
+# 查看最近一次提交的 LFS 文件
+git lfs ls-files --all | tail -10
+
+# 显示 LFS 指针文件的信息
+git lfs pointer --file=path/to/file
+
+# 查看当前暂存区的 LFS 状态
+git lfs status
+```
+
+### 拉取和推送
+
+```bash
+# 拉取 LFS 文件（clone 后只拉指针，需 fetch 获取实际内容）
+git lfs pull
+
+# 拉取特定分支的 LFS 文件
+git lfs fetch origin main
+
+# 只拉取最近几次提交的 LFS 文件（节省空间）
+git lfs fetch --recent
+
+# 推送 LFS 文件（通常 git push 会自动触发）
+git lfs push origin main --all
+```
+
+### 迁移已有仓库
+
+```bash
+# 将历史中已有的大文件迁移到 LFS（默认 --everything 覆盖全部分支）
+git lfs migrate import --include="*.zip,*.tar.gz" --everything
+
+# 只迁移特定分支
+git lfs migrate import --include="*.so" --include-ref=main
+
+# 先试运行，查看影响范围（不实际修改）
+git lfs migrate info --include="*.zip" --everything
+```
+
+> `git lfs migrate` 会重写历史，执行前确保已备份或与团队协调。
+
+### 克隆加速
+
+```bash
+# 克隆时跳过 LFS 文件下载（先拿到代码）
+GIT_LFS_SKIP_SMUDGE=1 git clone <repo-url>
+
+# 之后按需拉取
+cd <repo>
+git lfs pull
+```
+
+### 环境与维护
+
+```bash
+# 查看 LFS 配置信息（端点、存储路径等）
+git lfs env
+
+# 清理本地缓存的旧 LFS 文件（保留最近 3 天的）
+git lfs prune
+
+# 试运行，只展示会删除哪些文件
+git lfs prune --dry-run --verbose
+
+# 彻底删除远程不存在的 LFS 文件
+git lfs prune --verify-remote
+```

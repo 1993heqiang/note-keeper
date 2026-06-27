@@ -70,6 +70,10 @@ docker cp <src> <container>:<dst>
 
 # 查看容器详情（挂载、网络、环境变量等）
 docker inspect <container>
+
+# 输出完整 docker run 命令
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock \
+  assaflavie/runlike <container>
 ```
 
 ### Compose
@@ -92,6 +96,9 @@ docker compose restart
 
 # 更新镜像并重新部署
 docker compose pull && docker compose up -d
+
+# 当前 docker-compose 项目的运行路径（所在文件夹）
+docker compose ls
 ```
 
 ### 系统
